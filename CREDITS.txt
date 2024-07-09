@@ -1,3 +1,8 @@
 Despite I (Pump_Knight) ported this to modern GZD, it´s obvious all the hard 
 work behind this was carried out by the official SkullTag Team back in the day. 
-They´re all listed on the map pack, so of course all credits go for them. o7
+They´re all listed on the map pack, so of course all credits go for them.
+Besides that, the work on this project, as for now, has been carried out by
+me (Pump_Knight), who brought the main concepts of how the mod would be focused
+around and also the main map system code; whereas Gemini0 has been an inmense
+help with anything related to the general code oriented towards Zscript and so
+on, as well as the combination/linking with GitHub.
