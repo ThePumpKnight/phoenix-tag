@@ -1,0 +1,68 @@
+Skulltag was a multiplayer source port of Doom. Skulltag was founded by Carnevil, and was the precursor to Zandronum which is a fork of Skulltag.
+
+This archive contains the data that Skulltag was distributed alongside with, including (from skulltag.com):
+
+Runes, new weapons, and new monsters for modders.
+50 new, well designed stock maps for any game mode.
+
+Additionally, a large collection of textures which are still used in many mods today.
+
+CREDITS:
+Created by: Carnevil
+Project Lead: Rivecoder
+
+Mappers:
+AgentSpork
+WastedYouth
+Submerge
+Toke
+Carnevil
+AfterGlow
+Boris
+CYB
+Meph
+Torn
+Doomsphere
+Mechadon
+Wagi
+Metalhead
+Morpheus
+Wartorn
+
+Artists:
+DoomJedi
+Eriance
+KickAssAssasin
+Nanami
+RHOQ
+Scuba Steve
+Lazureus
+Kristus
+
+Skulltag Developers:
+Torr Samaho
+Rivecoder
+Blzut3
+SuperGod
+Vortex Cortex
+Eruanna
+
+Contributors:
+Eruanna
+Zalewa
+Hex_Vulture
+Alvis
+<Cacodemon>
+HumanBones
+Manc
+Metalhead
+Pennywise
+Proximity
+Rottking 
+
+Special Thanks:
+iD Software (DooM)
+Randy (ZDoom)
+Graf Zahl (GZDoom)
+
+This archive is being maintained by Hypnotoad as of 2015

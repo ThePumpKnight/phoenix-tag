@@ -1,0 +1,111 @@
+//=================================================================================================
+//
+// Time Freeze
+//
+//=================================================================================================
+
+Actor TimeFreezeSphereST : PowerupGiver
+{
+  +CountItem
+  +NoGravity
+  +Inventory.AutoActivate
+  +Inventory.AlwaysPickup
+  Inventory.MaxAmount 0
+  Powerup.Type TimeFreezer
+  Powerup.Color GoldMap
+  Inventory.PickupMessage "Time freeze!"
+  States
+  {
+  Spawn:
+    TIME ABCD 6 Bright
+    Loop
+  }
+}
+
+//=================================================================================================
+//
+// Invisibility Sphere
+//
+//=================================================================================================
+
+Actor InvisibilitySphereST : PowerupGiver
+{
+  +CountItem
+  +NoGravity
+  +VisibilityPulse
+  +Inventory.AutoActivate
+  +Inventory.AlwaysPickup
+  Inventory.MaxAmount 0
+  Powerup.Type Invisibility
+  Powerup.Mode Translucent
+  Powerup.Strength 80
+  RenderStyle Translucent
+  Inventory.PickupMessage "Invisibility!"
+  States
+  {
+  Spawn:
+    SINV ABCD 6 Bright
+    Loop
+  }
+}	
+
+//=================================================================================================
+//
+// Doom Sphere
+//
+//=================================================================================================
+
+Actor PowerQuadDamageST : PowerDamage
+{
+Damagefactor "Normal", 4
+}
+
+Actor DoomsphereST : PowerupGiver
+{
+  +CountItem
+  +NoGravity
+  +Inventory.AutoActivate
+  +Inventory.AlwaysPickup
+  Inventory.MaxAmount 0
+  Powerup.Type QuadDamageST
+  Powerup.Color RedMap
+  Inventory.PickupMessage "Doom Sphere!"
+  States
+  {
+  Spawn:
+    DOOM A 10 Bright
+    DOOM B 15 Bright
+    DOOM C 8 Bright
+    DOOM D 6 Bright
+    Loop
+  }
+}
+
+//=================================================================================================
+//
+// Guard Sphere
+//
+//=================================================================================================
+
+Actor PowerQuarterDamageST : PowerProtection
+{
+Damagefactor "Normal", 0.25
+}
+
+Actor GuardsphereST : PowerupGiver 5037
+{
+  +CountItem
+  +NoGravity
+  +Inventory.AutoActivate
+  +Inventory.AlwaysPickup
+  Inventory.MaxAmount 0
+  Powerup.Type QuarterDamageST
+  Powerup.Color GreenMap
+  Inventory.PickupMessage "Guard Sphere!"
+  States
+  {
+  Spawn:
+    GARD ABCD 6 Bright
+    Loop
+  }
+}

@@ -1,0 +1,35 @@
+//=================================================================================================
+//
+// MaxHealth
+//
+//=================================================================================================
+
+// ACTOR MaxHealth : Health <-- TF why is this here and what does this mean
+// {
+//	Inventory.MaxAmount 50
+// }
+
+//=================================================================================================
+//
+// Max. health bonus
+//
+//=================================================================================================
+
+ACTOR MaxHealthBonus : Health 5090
+{
+	Game Doom
+	Game Heretic
+	Game Hexen
+	SpawnID 166
+	+COUNTITEM
+	+INVENTORY.ALWAYSPICKUP
+	Inventory.Amount 1
+	Inventory.MaxAmount 250
+	Inventory.PickupMessage "Picked up a Max Health Bonus"
+	States
+	{
+	Spawn:
+		BON3 ABCDCB 6
+		Loop
+	}
+}

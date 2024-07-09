@@ -1,0 +1,35 @@
+// st_data stuff
+
+// [BB] Turbosphere inventory icon
+graphic "ARTITU1", 32, 32
+{
+	offset 8, 14
+	patch "turba0", 0, 0
+}
+
+graphic "ARTITU2", 32, 32
+{
+	offset 8, 14
+	patch "turbb0", 0, 0
+}
+graphic "ARTITU3", 32, 32
+
+{
+	offset 8, 14
+	patch "turbc0", 0, 0
+}
+
+graphic "ARTITU4", 32, 32
+{
+	offset 8, 14
+	patch "turbd0", 0, 0
+}
+
+// [SP] Duel Surge II compatibility...
+define STARS 200 120
+
+// D2CTF4
+texture "N_ICE01", 128, 128
+{
+	patch "N_ICE01", 0, 0
+}

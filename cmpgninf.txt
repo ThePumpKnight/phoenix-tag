@@ -1,0 +1,212 @@
+{
+mapname = d2dm1
+gamemode = deathmatch
+fraglimit = 25
+dmflags = 20612
+dmflags2 = 512
+bot[0] = deimos
+bot[1] = aldebaran
+bot[2] = chubbs
+}
+
+{
+mapname = d2dm2
+gamemode = deathmatch
+fraglimit = 25
+dmflags = 20612
+dmflags2 = 512
+bot[0] = rigel
+bot[1] = procyon
+bot[2] = crash
+}
+
+{
+mapname = d2dm3
+gamemode = deathmatch
+fraglimit = 25
+dmflags = 20612
+dmflags2 = 512
+bot[0] = sirius
+bot[1] = seenas
+bot[2] = synas
+}
+
+{
+mapname = d2dm4
+gamemode = deathmatch
+fraglimit = 25
+dmflags = 20612
+dmflags2 = 512
+bot[0] = cryon
+bot[1] = alphus
+bot[2] = protos
+}
+
+{
+mapname = d2dm5
+gamemode = deathmatch
+fraglimit = 25
+dmflags = 20612
+dmflags2 = 512
+bot[0] = betus
+bot[1] = omicron
+bot[2] = omega
+}
+
+{
+mapname = d2dm6
+gamemode = teamplay
+fraglimit = 25
+dmflags = 20612
+dmflags2 = 512
+playerteam = blue
+bot[0] = manek
+botteam[0] = red
+bot[1] = prey
+botteam[1] = red
+}
+
+{
+mapname = d2dm7
+gamemode = deathmatch
+fraglimit = 25
+dmflags = 20612
+dmflags2 = 512
+bot[0] = linguica
+bot[1] = cataclysm
+bot[2] = slyor
+}
+
+{
+mapname = d2dm8
+gamemode = deathmatch
+fraglimit = 25
+dmflags = 20612
+dmflags2 = 512
+bot[0] = obelisk
+bot[1] = maabus
+bot[2] = daemos
+}
+
+{
+mapname = d2dm9
+gamemode = deathmatch
+fraglimit = 25
+dmflags = 20612
+dmflags2 = 512
+bot[0] = linguica
+bot[1] = maabus
+bot[2] = omega
+}
+
+{
+mapname = d2dm10
+gamemode = deathmatch
+fraglimit = 25
+dmflags = 20612
+dmflags2 = 512
+bot[0] = linguica
+bot[1] = cataclysm
+bot[2] = omicron
+bot[3] = omega
+}
+
+{
+mapname = d2dm11
+gamemode = Deathmatch
+fraglimit = 15
+dmflags = 21508
+dmflags2 = 1536
+bot[0] = procyon
+}
+
+{
+mapname = d2dmsec
+gamemode = deathmatch
+fraglimit = 25
+dmflags = 20612
+dmflags2 = 512
+bot[0] = quotebot
+bot[1] = massmouth
+bot[2] = "lin mengju"
+}
+
+{
+mapname = d2lms1
+possessionholdtime = 15
+}
+
+{
+mapname = d2lms2
+possessionholdtime = 30
+}
+
+{
+mapname = d2lms3
+possessionholdtime = 20
+}
+
+{
+mapname = d2lms4
+possessionholdtime = 45
+}
+
+{
+mapname = d2lms5
+possessionholdtime = 25
+}
+
+{
+mapname = d2lms6
+possessionholdtime = 25
+}
+
+{
+mapname = d2lms7
+possessionholdtime = 20
+}
+
+{
+mapname = d2lms8
+possessionholdtime = 30
+}
+
+{
+mapname = d2lms9
+possessionholdtime = 45
+}
+
+{
+mapname = d2lms10
+possessionholdtime = 60
+}
+
+{
+mapname = D2INV1
+gamemode = invasion
+wavelimit = 6
+} 
+
+{
+mapname = D2INV2
+gamemode = invasion
+wavelimit = 8
+} 
+
+{
+mapname = D2INV3
+gamemode = invasion
+wavelimit = 8
+} 
+
+{
+mapname = D2INV4
+gamemode = invasion
+wavelimit = 5
+} 
+
+{
+mapname = D2INV5
+gamemode = invasion
+wavelimit = 8
+} 

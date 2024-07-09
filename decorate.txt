@@ -1,0 +1,32 @@
+#include "actors/skulltagarmor.txt"
+#include "actors/skulltagdeadthings.txt"
+#include "actors/skulltagdecorations.txt"
+#include "actors/skulltagmisc.txt"
+#include "actors/skulltagmonsters.txt"
+#include "actors/skulltagspawners.txt"
+#include "actors/skulltagstatues.txt"
+#include "actors/skulltagweapons.txt"
+#include "actors/skulltagrunes.txt"
+#include "actors/skulltagartifacts.txt"
+#include "actors/skulltaghealth.txt"
+#include "actors/skulltagscorepillars.txt"
+#include "actors/skulltagteamitems.txt"
+#include "actors/skulltagpowerups.txt"
+
+
+// [SP] Duel Surge II compatibility
+// [author]: This was put in because invisible bridges don't behave properly at this size.
+actor CargoBridge 1337
+{
+	Radius 64
+	Height 16
+	+NOGRAVITY
+	+SOLID
+	-SHOOTABLE
+	States
+	{
+		Spawn:
+		TNT1 A -1
+		stop
+	}
+}

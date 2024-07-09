@@ -1,0 +1,104 @@
+DoomEdNums
+{
+	5106 = ProsperityRune
+	5103 = SpreadRune
+}
+
+episode inv1
+{
+	picname = "The Impending Nightmare"
+	key = "i"
+}
+
+map CREDMAP "Credits"
+{
+	next = MAP01
+	secretnext = MAP01
+	sky1 = STSKY6, 0
+	sky2 = STSKY6, 0
+	cluster = 11
+	music = D_INV2
+}
+
+map INV1 lookup LEVEL_INV_1
+{
+	next = INV2
+	secretnext = INV2
+	sky1 = STSKY3, 0
+	sky2 = STSKY3, 0
+	cluster = 11
+	music = D_INV1
+}
+
+map INV2 lookup LEVEL_INV_2
+{
+	next = "EndTitle"
+	secretnext = "EndTitle"
+	sky1 = STSKY14, 0.1
+	sky2 = STSKY14, 0.1
+	cluster = 11
+	music = D_INV2
+}
+
+clearskills
+
+skill baby
+{
+   SpawnFilter = 1
+   ACSReturn = 0
+   AutoUseHealth
+   AmmoFactor = 2
+   DamageFactor = 0.5
+   Name = "I don´t want to die!"
+   MustConfirm = "Easiest difficulty. Twice ammo, half damage, and only 5 waves to survive"
+}
+
+skill kid
+{
+   SpawnFilter = 2
+   ACSReturn = 1
+   AutoUseHealth
+   AmmoFactor = 1
+   DamageFactor = 0.5
+   Name = "Hey, that hurts!"
+   MustConfirm = "Easy difficulty. Half damage, 5 waves to win"
+}
+
+skill average
+{
+   SpawnFilter = 3
+   ACSReturn = 2
+   AutoUseHealth
+   AmmoFactor = 1
+   DamageFactor = 1
+   Name = "Bring it on!"
+   MustConfirm = "Normal difficulty. 10 waves to win!"
+}
+
+skill hardcore
+{
+   SpawnFilter = 4
+   ACSReturn = 3
+   AutoUseHealth
+   AmmoFactor = 1
+   DamageFactor = 1.5
+   Name = "I thrive off pain!"
+   MustConfirm = "Hard difficulty, Ultra Violence equivalent. 10 waves to survive through"
+}
+
+skill hellspawn
+{
+   SpawnFilter = 5
+   ACSReturn = 4
+   AmmoFactor = 2
+   DamageFactor = 2.0
+   Aggressiveness = 1.0
+   FastMonsters
+   DisableCheats
+   NoInfighting
+   RespawnTime = 0
+   Name = "H E L L S P A W N"
+   MustConfirm = "HELL IS ETERNAL. DAMNATION AWAITS"
+}
+// Maps must be loaded separately to avoid several bugs, crashes & malfunctions
+

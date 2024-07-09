@@ -1,0 +1,9 @@
+// [SP] Duel surge compatibility...
+terrain HyWater
+{
+	footclip		4
+	liquid
+}
+
+floor HYWATER HyWater
+floor HYNUKE HyWater

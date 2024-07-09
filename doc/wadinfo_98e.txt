@@ -1,0 +1,53 @@
+============
+SKULLTAG.wad
+v0.98a
+============
+
+Contains most of Skulltag's content: maps, skins, sounds, music, and so on.
+
+---------------
+   Changelog
+---------------
+  + Addition 
+  - Removal  
+  ! Change
+---------------
+
+0.98a
+
++ Added new 98a announcer!
+! Various map error fixes
+! New chat icon for scoreboard (Tiger, Rivecoder, SoulPriestess)
+! New ready icon for intermission (Doomjedi)
+- Removed obsolete ZDoomGL lumps
+! Renamed to skulltag_data.pk3
+! Moved localization info and mapinfo for maps out of skulltag.pk3 - now they're here.
++ Added Duel Surge II maps - details here: http://skulltag.com/forum/viewtopic.php?f=76&t=19690
++ Added other new maps
+! Renamed some files with more appropriate extensions.
+! Added Doomsphere's changes to D2CTF4.
++ Added single-player campaign bots to D2DM9 and D2DM10.
+! Updated Credmap
+- Created funskins/ directory, to make most skins optional. Moved most non-player skins to funskins/ directory.
++ Added Blzut's translation changes for flags
+- Carried out map removals, as detailed in this thread: http://skulltag.com/forum/viewtopic.php?p=248773#p248773
+! used HeX_Vulture's split-skins wad as a base, and PK3'd with bagheadspidey's unwad tool.
+! Ran some tools, per Blzut3's suggestion, to decrease the size of the pk3.
+
+0.97d
++ Added the new Skulltag 97d announcer!
++ Improved the credits map.
++ Slight improvements to D2DM2.
+- Removed the 97b announcer.
+! Converted some things to PNG, but patches and flats are still BMP.
+! Changed polyobject sound numbers on D2CTF4 and D2INV5.
+
+0.97d - Beta 3
++ Added the Illucia skin!
++ Added the 'chatting' icon for the scoreboard.
+
+0.97d - Release 1
++ Added new death frames for Ultimus! Thanks, doomjedi!
++ Added game-sensitive F1 images for all of Skulltag's game modes!
++ Created this info header and changelog.
+------------------------------------------

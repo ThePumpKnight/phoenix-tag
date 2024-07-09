@@ -1,0 +1,13 @@
+====Skulltag Content Changelog=====
+
+#2.1b
+
+Added back missing Skulltag episodes
+
+#2.1a
+
+Merged Skulltag Actors
+Removed problem flag sprites that spammed warnings in the Zandronum console
+Updated maps D2DM5, D2DM6 and D2ST7 to call ThrustThing(Z) directly from sector actions for clientside prediction as suggested by unknownna
+Removed faulty unnamed texture from Texture1 lump
+Added a \doc directory to store documentation

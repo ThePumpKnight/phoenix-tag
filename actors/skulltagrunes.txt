@@ -1,0 +1,355 @@
+//=================================================================================================
+//
+// Rune <--- O B S O L E T E ! !
+//
+//=================================================================================================
+
+ ACTOR Rune : Powerup
+ {
+ }
+
+actor PowerDoubleDamage : PowerDamage
+{
+	DamageFactor "normal", 2
+	Inventory.Icon "STRRA0"
+}
+
+ACTOR PowerIconDoubleFiringSpeed : PowerDoubleFiringSpeed
+{
+	Inventory.Icon "RAGRA0"
+}
+
+ACTOR PowerIconDrain : PowerDrain
+{
+	Inventory.Icon "DRARA0"
+}
+
+//ACTOR RuneSpread : PowerSpread <--- Undefined, needs to be fixed
+//{
+//}
+
+ACTOR PowerHalfDamage : PowerProtection
+{
+	DamageFactor "normal", 0.5
+	Inventory.Icon "RESRA0"
+}
+
+ACTOR PowerIconRegeneration : PowerRegeneration
+{
+	Inventory.Icon "REGRA0"
+}
+
+ACTOR PowerIconReflection : PowerReflection
+{
+	Inventory.Icon "REFRA0"
+}
+
+ACTOR PowerIconHighJump : PowerHighJump
+{
+	Inventory.Icon "HIJRA0"
+}
+
+ACTOR PowerIconSpeed25 : PowerSpeed
+{
+	Speed 1.25
+	PowerSpeed.NoTrail 1
+	Inventory.Icon "HASRA0"
+}
+
+//=================================================================================================
+//
+// Strength rune
+//
+//=================================================================================================
+
+ACTOR StrengthRune : PowerupGiver 5100
+{
+	Game Doom
+	Game Heretic
+	Game Hexen
+	SpawnID 180
+	+COUNTITEM
+	+NOGRAVITY
+	+FLOATBOB
+	+INVENTORY.AUTOACTIVATE
+	Inventory.Icon "STRRA0"
+	Inventory.MaxAmount 0
+	Powerup.Duration 0x7FFFFFFD
+	Powerup.Type "PowerDoubleDamage"
+	Inventory.PickupMessage "You got the Strength rune!"
+	Inventory.PickupAnnouncerEntry "strength"
+	States
+	{
+	Spawn:
+		STRR ABCD 6
+		Loop
+	}
+}
+
+//=================================================================================================
+//
+// Rage rune
+//
+//=================================================================================================
+
+ACTOR RageRune : PowerupGiver 5101
+{
+	Game Doom
+	Game Heretic
+	Game Hexen
+	SpawnID 181
+	+COUNTITEM
+	+NOGRAVITY
+	+FLOATBOB
+	+INVENTORY.AUTOACTIVATE
+	Inventory.MaxAmount 0
+	Inventory.Icon "RAGRA0"
+	Powerup.Duration 0x7FFFFFFD
+	Powerup.Type "PowerIconDoubleFiringSpeed"
+	Inventory.PickupMessage "You got the Rage rune!"
+	Inventory.PickupAnnouncerEntry "rage"
+	States
+	{
+	Spawn:
+		RAGR ABCDEFGH 6
+		Loop
+	}
+}
+
+//=================================================================================================
+//
+// Drain rune
+//
+//=================================================================================================
+
+ACTOR DrainRune : PowerupGiver 5102
+{
+	Game Doom
+	Game Heretic
+	Game Hexen
+	SpawnID 182
+	+COUNTITEM
+	+NOGRAVITY
+	+FLOATBOB
+	+INVENTORY.AUTOACTIVATE
+	Inventory.MaxAmount 0
+	Powerup.Duration 0x7FFFFFFD
+	Inventory.Icon "DRARA0"
+	Powerup.Type "PowerIconDrain"
+	Inventory.PickupMessage "You got the Drain rune!"
+	Inventory.PickupAnnouncerEntry "drain"
+	States
+	{
+	Spawn:
+		DRAR ABCD 6
+		Loop
+	}
+}
+
+//=================================================================================================
+//
+// Spread rune
+//
+//=================================================================================================
+
+ACTOR SpreadRune : PowerupGiver 5103
+{
+	Game Doom
+	Game Heretic
+	Game Hexen
+	SpawnID 183
+	+COUNTITEM
+	+NOGRAVITY
+	+FLOATBOB
+	+INVENTORY.AUTOACTIVATE
+	Inventory.MaxAmount 0
+	Powerup.Duration 0x7FFFFFFD
+	//Powerup.Type "PowerSpread"
+	Inventory.PickupMessage "You got the Spread rune!"
+	Inventory.PickupAnnouncerEntry "spread"
+	States
+	{
+	Spawn:
+		SPRR ABCD 6
+		Loop
+	}
+}
+
+//=================================================================================================
+//
+// Resistance rune
+//
+//=================================================================================================
+
+ACTOR ResistanceRune : PowerupGiver 5104
+{
+	Game Doom
+	Game Heretic
+	Game Hexen
+	SpawnID 184
+	+COUNTITEM
+	+NOGRAVITY
+	+FLOATBOB
+	+INVENTORY.AUTOACTIVATE
+	Inventory.MaxAmount 0
+	Powerup.Duration 0x7FFFFFFD
+	Powerup.Type "PowerHalfDamage"
+	Inventory.Icon "RESRA0"
+	Inventory.PickupMessage "You got the Resistance rune!"
+	Inventory.PickupAnnouncerEntry "resistance"
+	States
+	{
+	Spawn:
+		RESR ABCDEFGH 6
+		Loop
+	}
+}
+
+//=================================================================================================
+//
+// Regeneration rune
+//
+//=================================================================================================
+
+ACTOR RegenerationRune : PowerupGiver 5105
+{
+	Game Doom
+	Game Heretic
+	Game Hexen
+	SpawnID 185
+	+COUNTITEM
+	+NOGRAVITY
+	+FLOATBOB
+	+INVENTORY.AUTOACTIVATE
+	Inventory.MaxAmount 0
+	Powerup.Duration 0x7FFFFFFD
+	Powerup.Type "PowerIconRegeneration"
+	Inventory.Icon "REGRA0"
+	Inventory.PickupMessage "You got the Regeneration rune!"
+	Inventory.PickupAnnouncerEntry "regeneration"
+	States
+	{
+	Spawn:
+		REGR AB 6
+		Loop
+	}
+}
+
+//=================================================================================================
+//
+// Prosperity rune
+//
+//=================================================================================================
+
+//ACTOR ProsperityRune : PowerupGiver 5106
+//{
+//	Game Doom
+//	Game Heretic
+//	Game Hexen
+//	SpawnID 186
+//	+COUNTITEM
+//	+NOGRAVITY
+//	+FLOATBOB
+//	+INVENTORY.AUTOACTIVATE
+//	Inventory.MaxAmount 0
+//	Powerup.Duration 0x7FFFFFFD
+	//Powerup.Type "PowerProsperity"
+//	Inventory.PickupMessage "You got the Prosperity rune!"
+//	Inventory.PickupAnnouncerEntry "prosperity"
+//	States
+//	{
+//	Spawn:
+//		PRSR ABCD 6
+//		Loop
+//	}
+//}
+
+//=================================================================================================
+//
+// Reflection rune
+//
+//=================================================================================================
+
+ACTOR ReflectionRune : PowerupGiver 5107
+{
+	Game Doom
+	Game Heretic
+	Game Hexen
+	SpawnID 187
+	+COUNTITEM
+	+NOGRAVITY
+	+FLOATBOB
+	+INVENTORY.AUTOACTIVATE
+	Inventory.MaxAmount 0
+	Powerup.Duration 0x7FFFFFFD
+	Powerup.Type "PowerIconReflection"
+	Inventory.Icon "REFRA0"
+	Inventory.PickupMessage "You got the Reflection rune!"
+	Inventory.PickupAnnouncerEntry "reflection"
+	States
+	{
+	Spawn:
+		REFR BA 6
+		Loop
+	}
+}
+
+//=================================================================================================
+//
+// High jump rune
+//
+//=================================================================================================
+
+ACTOR HighJumpRune : PowerupGiver 5108
+{
+	Game Doom
+	Game Heretic
+	Game Hexen
+	SpawnID 188
+	+COUNTITEM
+	+NOGRAVITY
+	+FLOATBOB
+	+INVENTORY.AUTOACTIVATE
+	Inventory.MaxAmount 0
+	Powerup.Duration 0x7FFFFFFD
+	Inventory.Icon "HIJRA0"
+	Powerup.Type "PowerIconHighJump"
+	Inventory.PickupMessage "You got the High Jump rune!"
+	Inventory.PickupAnnouncerEntry "highjump"
+	States
+	{
+	Spawn:
+		HIJR ABCD 6
+		Loop
+	}
+}
+
+//=================================================================================================
+//
+// Haste rune
+//
+//=================================================================================================
+
+ACTOR HasteRune : PowerupGiver 5109
+{
+	Game Doom
+	Game Heretic
+	Game Hexen
+	SpawnID 189
+	+COUNTITEM
+	+NOGRAVITY
+	+FLOATBOB
+	+INVENTORY.AUTOACTIVATE
+	Inventory.MaxAmount 0
+	Powerup.Duration 0x7FFFFFFD
+	Powerup.Type "PowerIconSpeed25"
+	Inventory.Icon "HASRA0"
+	Inventory.PickupMessage "You got the Haste rune!"
+	Inventory.PickupAnnouncerEntry "haste"
+	States
+	{
+	Spawn:
+		HASR ABCDCB 6
+		Loop
+	}
+}
