@@ -164,7 +164,7 @@ ACTOR SpreadRune : PowerupGiver 5103
 	+INVENTORY.AUTOACTIVATE
 	Inventory.MaxAmount 0
 	Powerup.Duration 0x7FFFFFFD
-	//Powerup.Type "PowerSpread"
+	Powerup.Type "PowerSpread"
 	Inventory.PickupMessage "You got the Spread rune!"
 	Inventory.PickupAnnouncerEntry "spread"
 	States

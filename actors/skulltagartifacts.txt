@@ -53,7 +53,7 @@ ACTOR TimeFreezeSphere : PowerupGiver 5032
 	Inventory.MaxAmount 0
 	Powerup.Type "PowerTimeFreezer"
 	Powerup.Color GoldMap
-	Inventory.PickupMessage "Picked up the Time Freeze sphere"
+	Inventory.PickupMessage "Time freeze!"
 	Inventory.PickupAnnouncerEntry "timefreeze"
 	States
 	{
@@ -81,10 +81,11 @@ ACTOR InvisibilitySphere : PowerupGiver 5035
 	+INVENTORY.AUTOACTIVATE
 	+INVENTORY.ALWAYSPICKUP
 	Inventory.MaxAmount 0
-	Powerup.Strength 100
+	Powerup.Strength 80
 	Powerup.Type "PowerInvisibility"
+	Powerup.Mode "Translucent"
 	RenderStyle Translucent
-	Inventory.PickupMessage "Picked up the Invisibility sphere"
+	Inventory.PickupMessage "Invisibility!"
 	Inventory.PickupAnnouncerEntry "invisibility"
 	States
 	{
@@ -118,7 +119,7 @@ ACTOR Doomsphere : PowerupGiver 5036
 	Inventory.MaxAmount 0
 	Powerup.Type "PowerQuadDamage"
 	Powerup.Color RedMap
-	Inventory.PickupMessage "Picked up the Doomsphere"
+	Inventory.PickupMessage "Doom sphere!"
 	Inventory.PickupAnnouncerEntry "doomsphere"
 	States
 	{
@@ -155,7 +156,7 @@ ACTOR Guardsphere : PowerupGiver 5037
 	Inventory.MaxAmount 0
 	Powerup.Type "PowerQuarterDamage"
 	Powerup.Color GreenMap
-	Inventory.PickupMessage "Picked up the Guardsphere"
+	Inventory.PickupMessage "Guard Sphere!"
 	Inventory.PickupAnnouncerEntry "guardsphere"
 	States
 	{

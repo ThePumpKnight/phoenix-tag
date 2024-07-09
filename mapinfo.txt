@@ -4,9 +4,15 @@ DoomEdNums
 	5103 = SpreadRune
 }
 
+gameinfo
+{
+	AddEventHandlers = "PTag_SpawnerReplacer"
+}
+
 episode inv1
 {
-	picname = "The Impending Nightmare"
+	name = "The Impending Nightmare"
+	picname = "m_impend"
 	key = "i"
 }
 
@@ -44,61 +50,61 @@ clearskills
 
 skill baby
 {
-   SpawnFilter = 1
-   ACSReturn = 0
-   AutoUseHealth
-   AmmoFactor = 2
-   DamageFactor = 0.5
-   Name = "I don´t want to die!"
-   MustConfirm = "Easiest difficulty. Twice ammo, half damage, and only 5 waves to survive"
+	SpawnFilter = 1
+	ACSReturn = 0
+	AutoUseHealth
+	AmmoFactor = 2
+	DamageFactor = 0.5
+	Name = "I don´t want to die!"
+	MustConfirm = "Easiest difficulty. Twice ammo, half damage, and only 5 waves to survive"
 }
 
 skill kid
 {
-   SpawnFilter = 2
-   ACSReturn = 1
-   AutoUseHealth
-   AmmoFactor = 1
-   DamageFactor = 0.5
-   Name = "Hey, that hurts!"
-   MustConfirm = "Easy difficulty. Half damage, 5 waves to win"
+	SpawnFilter = 2
+	ACSReturn = 1
+	AutoUseHealth
+	AmmoFactor = 1
+	DamageFactor = 0.5
+	Name = "Hey, that hurts!"
+	MustConfirm = "Easy difficulty. Half damage, 5 waves to win"
 }
 
 skill average
 {
-   SpawnFilter = 3
-   ACSReturn = 2
-   AutoUseHealth
-   AmmoFactor = 1
-   DamageFactor = 1
-   Name = "Bring it on!"
-   MustConfirm = "Normal difficulty. 10 waves to win!"
+	SpawnFilter = 3
+	ACSReturn = 2
+	AutoUseHealth
+	AmmoFactor = 1
+	DamageFactor = 1
+	Name = "Bring it on!"
+	MustConfirm = "Normal difficulty. 10 waves to win!"
 }
 
 skill hardcore
 {
-   SpawnFilter = 4
-   ACSReturn = 3
-   AutoUseHealth
-   AmmoFactor = 1
-   DamageFactor = 1.5
-   Name = "I thrive off pain!"
-   MustConfirm = "Hard difficulty, Ultra Violence equivalent. 10 waves to survive through"
+	SpawnFilter = 4
+	ACSReturn = 3
+	AutoUseHealth
+	AmmoFactor = 1
+	DamageFactor = 1.5
+	Name = "I thrive off pain!"
+	MustConfirm = "Hard difficulty, Ultra Violence equivalent. 10 waves to survive through"
 }
 
 skill hellspawn
 {
-   SpawnFilter = 5
-   ACSReturn = 4
-   AmmoFactor = 2
-   DamageFactor = 2.0
-   Aggressiveness = 1.0
-   FastMonsters
-   DisableCheats
-   NoInfighting
-   RespawnTime = 0
-   Name = "H E L L S P A W N"
-   MustConfirm = "HELL IS ETERNAL. DAMNATION AWAITS"
+	SpawnFilter = 5
+	ACSReturn = 4
+	AmmoFactor = 2
+	DamageFactor = 2.0
+	Aggressiveness = 1.0
+	FastMonsters
+	DisableCheats
+	NoInfighting
+	RespawnTime = 0
+	Name = "H E L L S P A W N"
+	MustConfirm = "HELL IS ETERNAL. DAMNATION AWAITS"
 }
 // Maps must be loaded separately to avoid several bugs, crashes & malfunctions
 

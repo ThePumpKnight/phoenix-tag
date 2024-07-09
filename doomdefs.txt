@@ -31,7 +31,7 @@ Interval 2.0
 Offset 0 16 0
 }
 
-Object TimefreezeSphereST
+Object TimefreezeSphere
 {
 Frame TIME { Light TIMEFREEZESPHERE }
 }
@@ -46,7 +46,7 @@ Interval 2.0
 Offset 0 16 0
 }
 
-Object InvisibilitySphereST
+Object InvisibilitySphere
 {
 Frame INVS { Light INVISIBILITYSPHERE }
 }
@@ -61,7 +61,7 @@ Interval 2.0
 Offset 0 16 0
 }
 
-Object DoomSphereST
+Object DoomSphere
 {
 Frame DOOM { Light DOOMSPHERE }
 }
@@ -76,7 +76,7 @@ Interval 2.0
 Offset 0 16 0
 }
 
-object GuardSphereST
+object GuardSphere
 {
 Frame GARD { Light GUARDSPHERE }
 }

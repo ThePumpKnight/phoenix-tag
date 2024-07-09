@@ -12,7 +12,6 @@
 #include "actors/skulltaghealth.txt"
 #include "actors/skulltagscorepillars.txt"
 #include "actors/skulltagteamitems.txt"
-#include "actors/skulltagpowerups.txt"
 
 
 // [SP] Duel Surge II compatibility

@@ -1,0 +1,3 @@
+server bool ptag_replacerunes = true;
+server bool ptag_replaceitems = true;
+server bool ptag_replaceweapons = true;
