@@ -1,4 +1,5 @@
 #include "actors/skulltagarmor.txt"
+#include "actors/skulltagcompatibility.txt"
 #include "actors/skulltagdeadthings.txt"
 #include "actors/skulltagdecorations.txt"
 #include "actors/skulltagmisc.txt"

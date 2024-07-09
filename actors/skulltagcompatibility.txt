@@ -1,0 +1,4 @@
+// G: Originally added for the sake of Super Skulltag compatibility. Might help with whatever other mods use this stuff.
+actor CustomPickupInvasionSpot {}
+actor MaxHealthBonusSpot {}
+actor FloatyIcon {}
