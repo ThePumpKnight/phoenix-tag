@@ -241,28 +241,7 @@ ACTOR RegenerationRune : PowerupGiver 5105
 //
 //=================================================================================================
 
-//ACTOR ProsperityRune : PowerupGiver 5106
-//{
-//	Game Doom
-//	Game Heretic
-//	Game Hexen
-//	SpawnID 186
-//	+COUNTITEM
-//	+NOGRAVITY
-//	+FLOATBOB
-//	+INVENTORY.AUTOACTIVATE
-//	Inventory.MaxAmount 0
-//	Powerup.Duration 0x7FFFFFFD
-	//Powerup.Type "PowerProsperity"
-//	Inventory.PickupMessage "You got the Prosperity rune!"
-//	Inventory.PickupAnnouncerEntry "prosperity"
-//	States
-//	{
-//	Spawn:
-//		PRSR ABCD 6
-//		Loop
-//	}
-//}
+// Prosperity Rune is defined in "zscript/powerups.zs".
 
 //=================================================================================================
 //

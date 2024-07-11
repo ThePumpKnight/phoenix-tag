@@ -1,10 +1,15 @@
+//=================================================================================================
+//
+// Prosperity rune
+//
+//=================================================================================================
+
 class PowerProsperity : Powerup
 {
 	Default
 	{
-	Inventory.Icon "PRSRC0";
+		Inventory.Icon "RPRSC0";
 	}
-	
 	override void InitEffect()
 	{
 		Super.InitEffect();
@@ -14,43 +19,45 @@ class PowerProsperity : Powerup
 			let arm = BasicArmor(owner.FindInventory('BasicArmor'));
 			if (arm)
 			{
-			arm.bonuscount += 50;
+				arm.bonuscount += 50;
 			}
 		}
 	}
 	override void EndEffect()
 	{
 		if (owner && owner.player)
-	{
-		PlayerPawn(owner).bonushealth -= 50;
-		let arm = BasicArmor(owner.FindInventory('BasicArmor'));
-		if (arm)
 		{
-		arm.bonuscount -= 50;
+			PlayerPawn(owner).bonushealth -= 50;
+			let arm = BasicArmor(owner.FindInventory('BasicArmor'));
+			if (arm)
+			{
+				arm.bonuscount -= 50;
+			}
 		}
-	}
 		Super.EndEffect();
 	}
 }
 
 class ProsperityRune : PowerupGiver
 {
-	Default{
-	+COUNTITEM;
-	+NOGRAVITY;
-	+FLOATBOB;
-	+INVENTORY.AUTOACTIVATE;
-	Inventory.MaxAmount 1;
-	Inventory.Icon "PRSRC0";
-	Inventory.PickupMessage "You got the Prosperity rune!";
-	Inventory.PickupAnnouncerEntry "prosperity";
-	Powerup.Duration 0x7FFFFFFD;
-	Powerup.Type "PowerProsperity";
+	Default
+	{
+		+COUNTITEM
+		+NOGRAVITY
+		+FLOATBOB
+		+INVENTORY.AUTOACTIVATE
+		Inventory.MaxAmount 1;
+		Inventory.Icon "RPRSC0";
+		Inventory.PickupMessage "You got the Prosperity rune!";
+		Inventory.PickupAnnouncerEntry "prosperity";
+		Powerup.Duration 0x7FFFFFFD;
+		Powerup.Type "PowerProsperity";
 	}
-	States{
-	Spawn:
-		PRSR ABCD 6;
-		Loop;
+	States
+	{
+		Spawn:
+			RPRS ABCDE 6;
+			Loop;
 	}
 	
 	// dedicated function that adds a value to health and armor maximums:

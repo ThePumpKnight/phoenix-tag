@@ -7,6 +7,10 @@ actor PTag_StomperSpawner : RandomSpawner replaces GrenadeLauncher
 {
 	DropItem "TangoStomper"
 }
+actor PTag_TangoScrapgunSpawner : RandomSpawner replaces Railgun
+{
+	DropItem "TangoScrapgun"
+}
 
 // AMMO
 actor PTag_TangoRocketAmmoSpawner : RandomSpawner replaces RocketAmmo
@@ -18,4 +22,14 @@ actor PTag_TangoRocketBoxSpawner : RandomSpawner replaces RocketBox
 {
 	DropItem "TangoRocketBox", 255, 1
 	DropItem "TangoStomperBox", 255, 1
+}
+actor PTag_TangoCellSpawner : RandomSpawner replaces Cell
+{
+	DropItem "TangoCell", 255, 1
+	DropItem "TangoScrapDrum", 255, 1
+}
+actor PTag_TangoCellPackSpawner : RandomSpawner replaces CellPack
+{
+	DropItem "TangoCellPack", 255, 1
+	DropItem "TangoScrapDrumPack", 255, 1
 }
