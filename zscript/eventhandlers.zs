@@ -203,3 +203,9 @@ class PTag_SpawnerReplacer : StaticEventHandler
 		}
 	}
 }
+
+/*
+class PTag_TauntButton : EventHandler
+{
+}
+*/

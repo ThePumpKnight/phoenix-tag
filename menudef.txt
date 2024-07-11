@@ -1,0 +1,21 @@
+OptionMenu ptag_Options
+{
+	Title "PhoenixTag Options"
+
+	StaticText ""
+	Option "Replace runes"	, ptag_replacerunes		, OnOff
+	Option "Replace items"	, ptag_replaceitems		, OnOff
+	Option "Replace weapons", ptag_replaceweapons	, OnOff
+}	
+
+// Entry points
+
+AddOptionMenu OptionsMenu
+{
+	Submenu "$PTAG_OPTIONS_TITLE", ptag_Options
+}
+
+AddOptionMenu OptionsMenuSimple
+{
+	Submenu "$PTAG_OPTIONS_TITLE", ptag_Options
+}

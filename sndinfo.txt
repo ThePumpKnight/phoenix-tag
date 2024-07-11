@@ -38,3 +38,11 @@ door1_end            d1_end
 $ambient 1 WindSound POINT CONTINUOUS 1.0
 $ambient 2 WaterFallSound POINT CONTINUOUS 1.0
 $endif	// ifdoom
+
+//===========================================================================
+//
+// Doom-specific player sounds
+//
+//===========================================================================
+// [BC] New player sound for Skulltag: taunt.
+$playersound	player	male	*taunt		dstaunt

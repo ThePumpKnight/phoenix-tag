@@ -1,0 +1,104 @@
+adddefaultmap
+{
+	F1 = "f1_dm"
+}
+
+map D2DM1 lookup LEVEL_DM_1
+{
+	next = D2DM2
+	secretnext = D2DM2
+	sky1 = STSKY2, 0
+	cluster = 11
+	music = D_TRAIN
+}
+
+map D2DM2 lookup LEVEL_DM_2
+{
+	next = D2DM3
+	secretnext = D2DM3
+	sky1 = STSKY2, 0
+	cluster = 11
+	music = D_TEST
+}
+
+map D2DM3 lookup LEVEL_DM_3
+{
+	next = D2DM4
+	secretnext = D2DM5
+	sky1 = STSKY2, 0
+	cluster = 11
+	music = D_COMBAT
+}
+
+map D2DM4 lookup LEVEL_DM_4
+{
+	next = D2DM5
+	secretnext = D2DM6
+	sky1 = SKY1, 0
+	cluster = 11
+	music = D_CRATE
+}
+
+map D2DM5 lookup LEVEL_DM_5
+{
+	next = D2DM6
+	secretnext = D2DM6
+	sky1 = SKY1, 0
+	cluster = 11
+	music = D_VOLCAN
+}
+
+map D2DM6 lookup LEVEL_DM_6
+{
+	next = D2DM7
+	secretnext = D2DM7
+	sky1 = STSKY7, 0
+	cluster = 11
+	music = D_BASTON
+}
+
+map D2DM7 lookup LEVEL_DM_7
+{
+	next = D2DM8
+	secretnext = D2DM8
+	sky1 = STSKY3, 0
+	cluster = 11
+	music = D_SAUSAG
+}
+
+map D2DM8 lookup LEVEL_DM_8
+{
+	next = D2DM9
+	secretnext = D2DM9
+	sky1 = STSKY8, 0.0
+	cluster = 11
+	music = D_PWRMIL
+ 	clipmidtextures
+}
+
+map D2DM9 lookup LEVEL_DM_9
+{
+	next = D2DM10
+	secretnext = D2DM10
+	sky1 = STSKY6, 0
+	cluster = 11
+	music = D_CHAMBR
+}
+
+map D2DM10 lookup LEVEL_DM_10
+{
+	next = D2DMSEC
+	secretnext = D2DMSEC
+	sky1 = STSKY6, 0
+	cluster = 11
+	music = D_ATONE
+}
+
+map D2DMSEC lookup LEVEL_DM_SEC
+{
+	next = D2DM1
+	secretnext = D2DM1
+	sky1 = STSKY2, 0
+	cluster = 11
+	music = D_DMSEC
+}

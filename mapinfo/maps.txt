@@ -1,0 +1,16 @@
+include "mapinfo/gamemodes/ctf.txt"		// Capture the Flag
+include "mapinfo/gamemodes/dm.txt"		// Deathmatch
+include "mapinfo/gamemodes/duel.txt"	// Duel
+include "mapinfo/gamemodes/inv.txt"		// Invasion
+include "mapinfo/gamemodes/lms.txt"		// Last Man Standing
+include "mapinfo/gamemodes/st.txt"		// Skulltag
+
+map CREDMAP "Credits"
+{
+	next = MAP01
+	secretnext = MAP01
+	sky1 = STSKY6, 0
+	sky2 = STSKY6, 0
+	cluster = 11
+	music = D_INV2
+}

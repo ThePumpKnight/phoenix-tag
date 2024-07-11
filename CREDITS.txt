@@ -7,5 +7,8 @@ around and also the main map system code; whereas Gemini0 has been an inmense
 help with anything related to the general code oriented towards Zscript and so
 on, as well as the combination/linking with GitHub.
 
+IN MEMORIAM
+TiberiumSoul
+
 Other credits:
 - Phoenix clipart used in folder.ico: https://png.pngtree.com/png-clipart/20220430/original/pngtree-flying-phoenix-bird-clipart-png-image_7597896.png (this site looks HELLA scammy lol -G)

@@ -62,3 +62,7 @@ LEVEL_INV_2 = "Abandoned Fortress";
 LEVEL_INV_3 = "Toxin Depot";
 LEVEL_INV_4 = "Inferno";
 LEVEL_INV_5 = "Wretched Demise";
+
+// PhoenixTag-exclusive text
+//PTAG_OPTIONS_TITLE = "\cn☠\c- PhoenixTag options"; // Cyan skull
+PTAG_OPTIONS_TITLE = "\cx⎎\c- PhoenixTag options"; // Fire "Hysteresis Symbol" (G: it looks like Mogura from Nichijou, which is the closest I can get to a bird, lol)

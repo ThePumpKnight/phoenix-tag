@@ -1,0 +1,4 @@
+// G: no Taunt button yet because i don't know how yet.
+// G: may resort to an ACS script...
+//addkeysection "PhoenixTag" PhoenixTag
+//	addmenukey "Taunt" "taunt"

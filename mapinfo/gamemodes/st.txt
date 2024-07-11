@@ -1,0 +1,86 @@
+adddefaultmap
+{
+	F1 = "f1_st"
+}
+
+map D2ST1 lookup LEVEL_ST_1
+{
+	next = D2ST2
+	secretnext = D2ST2
+	sky1 = STSKY6, 0
+	cluster = 11
+	music = D_KEEP
+}
+
+map D2ST2 lookup LEVEL_ST_2
+{
+	next = D2ST3
+	secretnext = D2ST3
+	sky1 = STSKY3, 0
+	cluster = 11
+	music = D_FIRE
+}
+
+map D2ST3 lookup LEVEL_ST_3
+{
+	next = D2ST4
+	secretnext = D2ST4
+	sky1 = STSKY4, 0
+	cluster = 11
+	music = D_BLDFRT
+}
+
+map D2ST4 lookup LEVEL_ST_4
+{
+	next = D2ST5
+	secretnext = D2ST5
+	sky1 = STSKY3, 0
+	cluster = 11
+	music = D_O
+}
+
+map D2ST5 lookup LEVEL_ST_5
+{
+	next = D2ST6
+	secretnext = D2ST6
+	sky1 = STSKY3, 0
+	cluster = 11
+	music = D_ACID
+}
+
+map D2ST6 lookup LEVEL_ST_6
+{
+	next = D2ST7
+	secretnext = D2ST7
+	sky1 = STSKY3, 0
+	cluster = 11
+	music = D_CANYON
+}
+
+map D2ST7 lookup LEVEL_ST_7
+{
+	next = D2ST8
+	secretnext = D2ST8
+	sky1 = STSKY3, 0
+	cluster = 11
+	music = D_SPACE
+}
+
+map D2ST8 lookup LEVEL_ST_8
+{
+	next = D2ST9
+	secretnext = D2ST9
+	sky1 = STSKY8, 0
+	cluster = 11
+	music = D_STAT12
+	forcenoskystretch 
+}
+
+map D2ST9 lookup LEVEL_ST_9
+{
+	next = D2ST1
+	secretnext = D2ST1
+	sky1 = STSKY8, 0
+	cluster = 11
+	music = D_VRACK
+}

@@ -1,0 +1,57 @@
+adddefaultmap
+{
+	F1 = "f1_inv"
+}
+
+map INV1 lookup LEVEL_INV_1
+{
+	next = INV2
+	secretnext = INV2
+	sky1 = STSKY3, 0
+	sky2 = STSKY3, 0
+	cluster = 11
+	music = D_INV1
+}
+
+map INV2 lookup LEVEL_INV_2
+{
+	next = "EndTitle"
+	secretnext = "EndTitle"
+// G: Uncomment when work on INV3 starts!
+/*	next = INV3
+	secretnext = INV3 */
+	sky1 = STSKY14, 0.1
+	sky2 = STSKY14, 0.1
+	cluster = 11
+	music = D_INV2
+}
+
+map INV3 lookup LEVEL_INV_3
+{
+	next = INV4
+	secretnext = INV4
+	sky1 = STSKY2, 0
+	sky2 = STSKY2, 0
+	cluster = 11
+	music = D_INV3
+}
+
+map INV4 lookup LEVEL_INV_4
+{
+	next = INV5
+	secretnext = INV5
+	sky1 = STSKY6, 0
+	sky2 = STSKY6, 0
+	cluster = 11
+	music = D_INV4
+}
+
+map INV5 lookup LEVEL_INV_5
+{
+	next = INV1
+	secretnext = INV1
+	sky1 = STSKY6, 0
+	sky2 = STSKY6, 0
+	cluster = 11
+	music = D_INV5
+}

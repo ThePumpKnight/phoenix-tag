@@ -1,0 +1,99 @@
+adddefaultmap
+{
+	F1 = "f1_lms"
+}
+
+map D2LMS1 lookup LEVEL_LMS_1
+{
+	next = D2LMS2
+	secretnext = D2LMS2
+	sky1 = STSKY2, 0
+	cluster = 11
+	music = D_STELTH
+}
+
+map D2LMS2 lookup LEVEL_LMS_2
+{
+	next = D2LMS3
+	secretnext = D2LMS3
+	sky1 = STSKY2, 0
+	cluster = 11
+	music = D_SURVIV
+}
+
+map D2LMS3 lookup LEVEL_LMS_3
+{
+	next = D2LMS4
+	secretnext = D2LMS4
+	sky1 = STSKY2, 0
+	cluster = 11
+	music = D_DEATHC
+}
+
+map D2LMS4 lookup LEVEL_LMS_4
+{
+	next = D2LMS5
+	secretnext = D2LMS5
+	sky1 = STSKY2, 0
+	cluster = 11
+	music = D_STORAG
+}
+
+map D2LMS5 lookup LEVEL_LMS_5
+{
+	next = D2LMS6
+	secretnext = D2LMS6
+	sky1 = STSKY13, 0
+	cluster = 11
+	music = D_HOLLOW
+	doublesky 
+	fallingdamage 
+}
+
+map D2LMS6 lookup LEVEL_LMS_6
+{
+	next = D2LMS7
+	secretnext = D2LMS7
+	sky1 = STSKY13, 0
+	cluster = 11
+	music = D_NMARE
+}
+
+map D2LMS7 lookup LEVEL_LMS_7
+{
+	next = D2LMS8
+	secretnext = D2LMS8
+	sky1 = STSKY7, 0.1
+	sky2 = STSKY7, 0.1
+	cluster = 11
+	music = D_BADLAN
+}
+
+map D2LMS8 lookup LEVEL_LMS_8
+{
+	next = D2LMS9
+	secretnext = D2LMS9
+	sky1 = STSKY14, 0.1
+	sky2 = STSKY14, 0.1
+	cluster = 11
+	music = D_FORGOT
+}
+
+map D2LMS9 lookup LEVEL_LMS_9
+{
+	next = D2LMS10
+	secretnext = D2LMS10
+	sky1 = STSKY1, 0.1
+	sky2 = STSKY1, 0.1
+	cluster = 11
+	music = D_BUNKER
+}
+
+map D2LMS10 lookup LEVEL_LMS_10
+{
+	next = D2LMS1
+	secretnext = D2LMS1
+	sky1 = STSKY4, 0
+	cluster = 11
+	music = D_HATRED
+}
