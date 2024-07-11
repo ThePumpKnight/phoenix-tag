@@ -93,11 +93,3 @@ class ProsperityRune : PowerupGiver
 		Super.DetachFromOwner();
 	}
 }
-
-class PowerSpread : Powerup
-{
-	Default
-	{
-		Inventory.Icon "SPRRA0";
-	}
-}
