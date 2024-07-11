@@ -1,5 +1,5 @@
 DoomEdNums
 {
 	5106 = ProsperityRune
-	5103 = SpreadRune
+	//5103 = SpreadRune
 }
