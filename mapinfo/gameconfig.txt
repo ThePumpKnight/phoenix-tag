@@ -3,13 +3,6 @@ gameinfo
 	AddEventHandlers = "PTag_SpawnerReplacer"
 }
 
-adddefaultmap
-{
-// G: we probably want to pistol start every Invasion, DM, CTF, etc map...
-	ResetHealth
-	ResetInventory
-}
-
 clearepisodes
 episode map01
 {

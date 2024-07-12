@@ -1,6 +1,9 @@
 adddefaultmap
 {
 	F1 = "f1_st"
+// G: we probably want to pistol start every Invasion, DM, CTF, etc map...
+	ResetHealth
+	ResetInventory
 }
 
 map D2ST1 lookup LEVEL_ST_1
