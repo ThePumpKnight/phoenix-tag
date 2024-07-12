@@ -1,0 +1,60 @@
+//=================================================================================================
+//
+// Max. armor bonus
+//
+//=================================================================================================
+
+ACTOR MaxArmorBonus : BasicArmorBonus 5091
+{
+	Game Doom
+	Game Heretic
+	Game Hexen
+	SpawnID 167
+	Radius 20
+	Height 16
+	Inventory.Pickupmessage "$PICKUP_MAXARMORBONUS"
+	Inventory.Icon "ARM1A0"
+	Armor.Savepercent 33.33333
+	Armor.Saveamount 1
+	Armor.Maxsaveamount 200
+	Armor.MaxBonus 1
+	Armor.MaxBonusMax 50
+	+COUNTITEM
+	+INVENTORY.ALWAYSPICKUP
+	States
+	{
+	Spawn:
+		BON4 ABCDCB 6
+		loop
+	}
+}
+
+
+
+//=================================================================================================
+//
+// Red Armor
+//
+//=================================================================================================
+
+ACTOR RedArmor : BasicArmorPickup 5040
+{
+	Game Doom
+	SpawnID 168
+	Radius 20
+	Height 16
+	Armor.Savepercent 66.66666
+	Armor.Saveamount 200
+	Inventory.Icon "ARM3A0"
+	Inventory.Pickupmessage "$PICKUP_REDARMOR"
+	DamageFactor "Fire", 0.125
+	DamageFactor "Rocket", 0.125
+	DamageFactor "Grenade", 0.125
+	States
+	{
+	Spawn:
+		ARM3 A 6
+		ARM3 B 6 bright
+		goto Spawn
+	}
+}
