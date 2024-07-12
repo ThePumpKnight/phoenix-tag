@@ -205,7 +205,6 @@ ACTOR RedSkullST : Skull
 	}
 }
 
-/* [PK] => Disabled these two until proper sprites are made
 
 //=================================================================================================
 //
@@ -213,21 +212,11 @@ ACTOR RedSkullST : Skull
 //
 //=================================================================================================
 
-ACTOR GreenSkullST : Skull
+ACTOR GreenSkullST : BlueSkullST
 {
-	Radius 20
-	Height 16
-	+INTERHUBSTRIP
-	+NOTDMATCH
-	Inventory.PickupMessage "$PICKUP_GREENSKULL_ST"
-	Inventory.Icon "GSKLBIG"
-	States
-	{
-	Spawn:
-		GSKU A 10
-		GSKU B 10 BRIGHT
-		Loop
-	}
+  Translation "192:207=112:123", "240:247=124:127"
+  Inventory.PickupMessage "$PICKUP_GREENSKULL_ST"
+  Inventory.Icon "GSKLBIG"
 }
 
 //=================================================================================================
@@ -252,4 +241,3 @@ ACTOR GoldSkullST : Skull
 		Loop
 	}
 }
-*/
