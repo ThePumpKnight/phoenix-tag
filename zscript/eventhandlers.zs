@@ -2,11 +2,122 @@ class PTag_SpawnerReplacer : StaticEventHandler
 {
 	override void CheckReplacement(ReplaceEvent e)
 	{
+		CVar replaceMonsters = CVar.FindCVar('ptag_replacemonsters');
 		CVar replaceRunes = CVar.FindCVar('ptag_replacerunes');
 		CVar replaceItems = CVar.FindCVar('ptag_replaceitems');
 		CVar replaceWeapons = CVar.FindCVar('ptag_replaceweapons');
 
+		// ========================================================
+		// Monsters
+		// ========================================================
+		if (replaceMonsters.GetBool())
+		{
+			let cls = e.Replacee.GetClassName();
+			switch (cls)
+			{
+				case 'Cacodemon':
+					switch (random(1, 7))
+					{
+						case 1:
+						case 2:
+							e.Replacement = "Cacolantern";
+							break;
+						case 3:
+							e.Replacement = "Abaddon";
+							break;
+						default:
+							e.Replacement = "Cacodemon";
+							break;
+					}
+					break;
+				case 'DoomImp':
+					switch (random(1, 6))
+					{
+						case 1:
+							e.Replacement = "DarkImp";
+							break;
+						default:
+							e.Replacement = "DoomImp";
+							break;
+					}
+					break;
+				case 'Demon':
+					switch (random(1, 6))
+					{
+						case 1:
+							e.Replacement = "BloodDemon";
+							break;
+						default:
+							e.Replacement = "Demon";
+							break;
+					}
+					break;
+				case 'BaronOfHell':
+					switch (random(1, 8))
+					{
+						case 1:
+							e.Replacement = "Belphegor";
+							break;
+						default:
+							e.Replacement = "BaronOfHell";
+							break;
+					}
+					break;
+				case 'Fatso':
+					switch (random(1, 8))
+					{
+						case 1:
+							e.Replacement = "Hectebus";
+							break;
+						default:
+							e.Replacement = "Fatso";
+							break;
+					}
+					break;
+				case 'ShotgunGuy':
+					switch (random(1, 8))
+					{
+						case 1:
+							e.Replacement = "SuperShotgunGuy";
+							break;
+						default:
+							e.Replacement = "ShotgunGuy";
+							break;
+					}
+					break;
+			}
+		}
+		else
+		{
+			let cls = e.Replacee.GetClassName();
+			switch (cls)
+			{
+				case 'Cacolantern':
+				case 'Abaddon':
+					e.Replacement = "Cacodemon";
+					break;
+				case 'DarkImp':
+					e.Replacement = "DoomImp";
+					break;
+				case 'BloodDemon':
+					e.Replacement = "Demon";
+					break;
+				case 'Belphegor':
+					e.Replacement = "BaronOfHell";
+					break;
+				case 'Hectebus':
+					e.Replacement = "Fatso";
+					break;
+				case 'SuperShotgunGuy':
+					e.Replacement = "ShotgunGuy";
+					break;
+			}
+		}
+
+
+		// ========================================================
 		// Runes
+		// ========================================================
 		if (replaceRunes.GetBool())
 		{
 			let cls = e.Replacee.GetClassName();
@@ -142,7 +253,9 @@ class PTag_SpawnerReplacer : StaticEventHandler
 			}
 		}
 
+		// ========================================================
 		// Items
+		// ========================================================
 		if (replaceItems.GetBool())
 		{
 			let cls = e.Replacee.GetClassName();
@@ -169,7 +282,9 @@ class PTag_SpawnerReplacer : StaticEventHandler
 			}
 		}
 
+		// ========================================================
 		// Weapons
+		// ========================================================
 		if (replaceWeapons.GetBool())
 		{
 			let cls = e.Replacee.GetClassName();
@@ -222,9 +337,3 @@ class PTag_SpawnerReplacer : StaticEventHandler
 		}
 	}
 }
-
-/*
-class PTag_TauntButton : EventHandler
-{
-}
-*/

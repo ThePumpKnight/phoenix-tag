@@ -4,7 +4,6 @@
 #include "actors/skulltagdecorations.txt"
 #include "actors/skulltagmisc.txt"
 #include "actors/skulltagmonsters.txt"
-#include "actors/skulltagspawners.txt"
 #include "actors/skulltagstatues.txt"
 #include "actors/skulltagweapons.txt"
 #include "actors/skulltagrunes.txt"

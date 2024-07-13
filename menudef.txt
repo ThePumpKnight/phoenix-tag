@@ -3,9 +3,10 @@ OptionMenu ptag_Options
 	Title "PhoenixTag Options"
 
 	StaticText ""
-	Option "Replace runes"	, ptag_replacerunes		, OnOff
-	Option "Replace items"	, ptag_replaceitems		, OnOff
-	Option "Replace weapons", ptag_replaceweapons	, OnOff
+	Option "Replace monsters"	, ptag_replacemonsters	, OnOff
+	Option "Replace runes"		, ptag_replacerunes		, OnOff
+	Option "Replace items"		, ptag_replaceitems		, OnOff
+	Option "Replace weapons"	, ptag_replaceweapons	, OnOff
 }	
 
 // Entry points
