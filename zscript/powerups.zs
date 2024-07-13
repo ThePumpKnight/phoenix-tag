@@ -48,7 +48,7 @@ class ProsperityRune : PowerupGiver
 		+INVENTORY.AUTOACTIVATE
 		Inventory.MaxAmount 1;
 		Inventory.Icon "RPRSC0";
-		Inventory.PickupMessage "You got the Prosperity rune!";
+		Inventory.PickupMessage "$PICKUP_PROSPERITY";
 		Inventory.PickupAnnouncerEntry "prosperity";
 		Powerup.Duration 0x7FFFFFFD;
 		Powerup.Type "PowerProsperity";

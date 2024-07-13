@@ -32,7 +32,7 @@ ACTOR BlueFlag : Flag 5130
 	Height 48
 	+INTERHUBSTRIP
 	+NOTDMATCH
-	Inventory.PickupMessage "You picked up the Blue Flag!"
+	Inventory.PickupMessage "$PICKUP_BLUEFLAG"
 	Inventory.Icon "BFLAB0"
 	States
 	{
@@ -59,7 +59,7 @@ ACTOR RedFlag : Flag 5131
 	Height 48
 	+INTERHUBSTRIP
 	+NOTDMATCH
-	Inventory.PickupMessage "You picked up the Red Flag!"
+	Inventory.PickupMessage "$PICKUP_REDFLAG"
 	Inventory.Icon "RFLAB0"
 	States
 	{
@@ -85,7 +85,7 @@ ACTOR WhiteFlag : Flag 5132
 	Radius 20
 	Height 48
 	+NOTDMATCH
-	Inventory.PickupMessage "You picked up the White Flag!"
+	Inventory.PickupMessage "$PICKUP_WHITEFLAG"
 	Inventory.Icon "WFLAB0"
 	States
 	{
@@ -109,7 +109,7 @@ ACTOR GreenFlag : Flag 5133
 	+INTERHUBSTRIP
 	+NOTDMATCH
 	Inventory.PickupSound "misc/k_pkup"
-	Inventory.PickupMessage "You picked up the Green Flag!"
+	Inventory.PickupMessage "$PICKUP_GREENFLAG"
 	Inventory.Icon "GFLAB0"
 	States
 	{
@@ -135,7 +135,7 @@ ACTOR GoldFlag : Flag 5134
 	Height 48
 	+INTERHUBSTRIP
 	+NOTDMATCH
-	Inventory.PickupMessage "You picked up the Golden Flag!"
+	Inventory.PickupMessage "$PICKUP_GOLDFLAG"
 	Inventory.Icon "YFLAB0"
 	States
 	{
@@ -171,7 +171,7 @@ ACTOR BlueSkullST : Skull
 	Height 16
 	+INTERHUBSTRIP
 	+NOTDMATCH
-	Inventory.PickupMessage "You picked up the Blue Skull!"
+	Inventory.PickupMessage "$PICKUP_BLUESKULL_ST"
 	Inventory.Icon "BSKUB0"
 	States
 	{
@@ -194,7 +194,7 @@ ACTOR RedSkullST : Skull
 	Height 16
 	+INTERHUBSTRIP
 	+NOTDMATCH
-	Inventory.PickupMessage "You picked up the Red Skull!"
+	Inventory.PickupMessage "$PICKUP_REDSKULL_ST"
 	Inventory.Icon "RSKUB0"
 	States
 	{
@@ -231,7 +231,7 @@ ACTOR GoldSkullST : Skull
 	Height 16
 	+INTERHUBSTRIP
 	+NOTDMATCH
-	Inventory.PickupMessage "You picked up the Golden Skull!"
+	Inventory.PickupMessage "$PICKUP_GOLDFLAG_ST"
 	Inventory.Icon "YSKUB0"
 	States
 	{

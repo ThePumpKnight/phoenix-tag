@@ -25,7 +25,7 @@ ACTOR MaxHealthBonus : Health 5090
 	+INVENTORY.ALWAYSPICKUP
 	Inventory.Amount 1
 	Inventory.MaxAmount 250
-	Inventory.PickupMessage "Picked up a Max Health Bonus"
+	Inventory.PickupMessage "$PICKUP_MAXHEALTHBONUS"
 	States
 	{
 	Spawn:

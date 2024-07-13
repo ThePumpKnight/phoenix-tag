@@ -1,5 +1,6 @@
 [enu default]
 
+// skulltag_data.pk3
 LEVEL_DM_1 = "Training Center";
 LEVEL_DM_2 = "Testing Center";
 LEVEL_DM_3 = "Combat Center";
@@ -62,6 +63,180 @@ LEVEL_INV_2 = "Abandoned Fortress";
 LEVEL_INV_3 = "Toxin Depot";
 LEVEL_INV_4 = "Inferno";
 LEVEL_INV_5 = "Wretched Demise";
+
+// skulltag.pk3
+// [BC] Start of Skulltag strings.
+// [BB] Save string.
+SAVENET = "you can't save while in a net game!\n\npress a key.";
+// Pickup strings.
+PICKUP_REDARMOR = "Picked up the red armor!";
+PICKUP_MAXHEALTHBONUS = "Picked up a max. health bonus.";
+PICKUP_MAXARMORBONUS = "Picked up a max. armor bonus.";
+
+PICKUP_TURBOSPHERE = "Turbosphere!";
+PICKUP_ANTIGRAVBELT = "Anti-gravity belt! Wheee!";
+PICKUP_TIMEFREEZER = "Time freeze!";
+PICKUP_INFRAREDGOGGLES = "Infrared Goggles";
+PICKUP_INFRAREDTRACKER = "Infrared tracker";
+PICKUP_INVISIBILITY = "Invisibility";
+PICKUP_DOOMSPHERE = "Doomsphere";
+PICKUP_GUARDSPHERE = "Guardsphere";
+PICKUP_TERMINATOR = "Terminator!";
+PICKUP_POSSESSIONSTONE = "Hellstone!";
+
+PICKUP_BLUEFLAG = "You got the blue flag!";
+PICKUP_BLUESKULL_ST = "You got the blue skull!";
+PICKUP_REDFLAG = "You got the red flag!";
+PICKUP_REDSKULL_ST = "You got the red skull!";
+PICKUP_GREENFLAG = "You got the green flag!";
+PICKUP_GREENSKULL_ST = "You got the green skull!";
+PICKUP_GOLDFLAG = "You got the gold flag!";
+PICKUP_GOLDFLAG_ST = "You got the gold skull!";
+PICKUP_WHITEFLAG = "You got the flag!";
+
+PICKUP_COOPERATIVEBACKPACK = "Picked up a backpack full of weapons and ammo!";
+
+PICKUP_STRENGTH = "Strength!";
+PICKUP_RAGE = "Rage!";
+PICKUP_DRAIN = "Drain!";
+PICKUP_SPREAD = "Spread!";
+PICKUP_RESISTANCE = "Resistance!";
+PICKUP_REGENERATION = "Regeneration!";
+PICKUP_PROSPERITY = "Prosperity!";
+PICKUP_REFLECTION = "Reflection!";
+PICKUP_HIGHJUMP = "High jump!";
+PICKUP_HASTE = "Haste!";
+
+PICKUP_PISTOL = "You got your pistol back!  Whew!";
+PICKUP_MINIGUN = "You got the minigun!";
+PICKUP_GRENADELAUNCHER = "You got the grenade launcher!";
+PICKUP_RAILGUN = "You got the railgun!";
+PICKUP_BFG10K = "You got the BFG10000!  Hell, yes!";
+
+// Possession strings.
+POSSESSIONARTIFACT_PICKEDUP = "Hellstone picked up!";
+POSSESSIONARTIFACT_DROPPED = "Hellstone dropped!";
+
+// Obituary strings.
+OB_FIST_2 = "%o was fisted by %k.";
+OB_FIST_RARE = "%o was molested by %k's fist.";
+OB_PISTOL_RARE = "%o got a cap popped in %p ass by %k.";
+OB_CHAINSAW_RARE = "%o was h4x0r3d by %k's chainsaw.";
+OB_MINIGUN = "%o was drilled by %k's minigun.";
+OB_MINIGUN_2 = "%o was pelted by %k's minigun.";
+OB_ROCKET_GIB = "%o was gibbed by %k's rocket.";
+OB_ROCKET_GIB_2 = "%o was souped by %k's rocket.";
+OB_ROCKET_GIB_3 = "%o was blown to bits by %k's rocket.";
+OB_ROCKET_GIB_4 = "%o was shredded by %k's rocket.";
+OB_ROCKET_RARE = "%o was assraped by %k's rocket.";
+OB_ROCKET_SELF_2 = "%o discovers splash damage.";
+OB_ROCKET_SELF_3 = "%o blew %hself up.";
+OB_ROCKET_SELF_RARE = "%o blew %p own dumbass up.";
+OB_GRENADE = "%o caught %k's grenade.";
+OB_GRENADE_SPLASH = "%o was shredded by %k's shrapnel.";
+OB_GRENADE_SELF = "%o tripped %p own grenade.";
+OB_PLASMARIFLE_RARE = "%o was owned %k's plasma gun.";
+OB_BFG_GIB_RARE = "%o was gibbed by %k's big fucking gun.";
+OB_BFG10K = "%o was blasted by %k's BFG10K.";
+OB_BFG10K_RARE = "%o got a blast in the ass from %k's BFG10K.";
+OB_BFG10K_SELF = "%o got reckless with %p BFG10K.";
+
+OB_CACODEMON_MELEE_RARE = "%o tried to get friendly with a cacodemon.";
+OB_BARON_MELEE_RARE = "%o was bitchslapped by a Baron of Hell.";
+OB_DARKIMP_MELEE = "%o was slashed by a dark imp.";
+OB_DARKIMP = "%o was burned by a dark imp.";
+OB_BLOODDEMON_MELEE = "%o was chomped on by a blood demon.";
+OB_SSGGUY = "%o was jacked by a super shotgun guy.";
+OB_BELPHEGOR_MELEE = "%o was slain by a Belphegor.";
+OB_BELPHEGOR = "%o was slain by a Belphegor.";
+OB_CACOLANTERN_MELEE = "%o got too close to a cacolantern.";
+OB_CACOLANTERN = "%o was smitten by a cacolantern.";
+OB_ABADDON_MELEE = "%o became food for an abaddon.";
+OB_ABADDON = "%o was smitten by an abaddon.";
+OB_HECTEBUS = "%o was cremated by a hectebus.";
+
+OB_IMPALED = "%o got impaled on a stick.";
+OB_SPACE = "%o tried to explore space.";
+OB_SELF_2 = "%o had a heart attack.";
+OB_FALL_2 = "%o went splat.";
+OB_EXIT_2 = "%o seems bored on this level.";
+OB_REFLECTION = "%o was killed via %k's reflection rune.";
+
+// Medal strings. (THESE ARE NOT USED ATM).
+MEDALSTRING_EXCELLENT = "Excellent!";
+MEDALSTRING_INCREDIBLE = "Incredible!";
+MEDALSTRING_IMPRESSIVE = "Impressive!";
+MEDALSTRING_MOSTIMPRESSIVE = "Most Impressive!";
+MEDALSTRING_DOMINATION = "Domination!";
+MEDALSTRING_TOTALDOMINATION = "Total Domination!";
+MEDALSTRING_ACCURACY = "Accuracy!";
+MEDALSTRING_PRECISION = "Precision!";
+MEDALSTRING_LLAMA = "Llama!";
+MEDALSTRING_YOUFAILIT = "You Fail It!";
+
+// Level names.
+LEVEL_SP_PRE_1 = "level 1";
+LEVEL_SP_PRE_2 = "level 2";
+LEVEL_SP_PRE_3 = "level 3";
+LEVEL_SP_PRE_4 = "level 4";
+LEVEL_SP_PRE_5 = "level 5";
+LEVEL_SP_PRE_6 = "level 6";
+LEVEL_SP_PRE_7 = "level 7";
+LEVEL_SP_PRE_8 = "level 8";
+LEVEL_SP_PRE_9 = "level 9";
+LEVEL_SP_PRE_10 = "level 10";
+LEVEL_SP_PRE_11 = "level 11";
+LEVEL_SP_PRE_12 = "level 12";
+LEVEL_SP_PRE_13 = "level 13";
+LEVEL_SP_PRE_14 = "level 14";
+LEVEL_SP_PRE_15 = "level 15";
+LEVEL_SP_PRE_16 = "level 16";
+LEVEL_SP_PRE_17 = "level 17";
+LEVEL_SP_PRE_18 = "level 18";
+LEVEL_SP_PRE_19 = "level 19";
+LEVEL_SP_PRE_20 = "level 20";
+LEVEL_SP_PRE_21 = "level 21";
+LEVEL_SP_PRE_22 = "level 22";
+LEVEL_SP_PRE_23 = "level 23";
+LEVEL_SP_PRE_24 = "level 24";
+LEVEL_SP_PRE_25 = "level 25";
+LEVEL_SP_PRE_26 = "level 26";
+LEVEL_SP_PRE_27 = "level 27";
+LEVEL_SP_PRE_28 = "level 28";
+LEVEL_SP_PRE_29 = "level 29";
+LEVEL_SP_PRE_30 = "level 30";
+LEVEL_SP_PRE_31 = "level 31";
+LEVEL_SP_PRE_32 = "level 32";
+
+// Cluster strings.
+DM1TEXT =
+		"CONGRATULATIONS, YOU'VE FOUND WHAT NO\n"
+		"ONE PROBABLY WOULD HAVE EVER SUSPECTED:\n"
+		"THE SECRET DEATHMATCH LEVEL! PAT YOURSELF\n"
+		"ON THE BACK AND GET READY... IT'S FIGHTIN'\n"
+		"TIME!";
+DM2TEXT =
+		"THE GREATEST EVIL THE WORLD HAS EVER\n"
+		"KNOWN HAS FINALLY BEEN SLAIN. LINGUICA,\n"
+		"THE \"SAUSAGE OF DEATH\", WILL HOLD PLUSH\n"
+		"CACODEMONS CAPTIVE NO LONGER. YOU WATCH\n"
+		"FROM AFAR AS LINGUICA'S LAIR, WHICH SERVED\n"
+		"AS HISSY'S PRISON, CRUMBLES TO THE GROUND.\n"
+		"\n"
+		"HISSY IS FREE! YOU WATCH WITH DELIGHT\n"
+		"AS THE PLUSH CACODEMON KNOWN AS HISSY\n"
+		"EMERGES FROM THE RUBBLE, GIVES YOU A\n"
+		"\"HISS\" GOODBYE, AND FLOATS AWAY HAPPILY.\n"
+		"YOU BREATHE A SIGH OF RELIEF, KNOWING THAT\n"
+		"HISSY, AND ALL OTHER PLUSH CACODEMONS,\n"
+		"CAN ROAM FREE ONCE AGAIN.";
+
+// Cast call.
+CC_SSGGUY = "SUPER SHOTGUN GUY";
+CC_DARKIMP = "DARK IMP";
+CC_BLOODDEMON = "BLOOD DEMON";
+CC_CACOLANTERN = "CACOLANTERN";
+CC_HECTEBUS = "HECTEBUS";
 
 // PhoenixTag-exclusive text
 //PTAG_OPTIONS_TITLE = "\cn☠\c- PhoenixTag options"; // Cyan skull

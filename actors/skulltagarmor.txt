@@ -34,7 +34,7 @@ ACTOR MaxArmorBonus : BasicArmorBonus 5091
 	SpawnID 167
 	Radius 20
 	Height 16
-	Inventory.Pickupmessage "Picked up a Max Armor Bonus"
+	Inventory.Pickupmessage "$PICKUP_MAXARMORBONUS"
 	Inventory.Icon "ARM1A0"
 	Armor.Savepercent 33.33333
 	Armor.Saveamount 1
