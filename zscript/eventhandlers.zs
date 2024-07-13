@@ -201,6 +201,25 @@ class PTag_SpawnerReplacer : StaticEventHandler
 					break;
 			}
 		}
+		else
+		{
+			let cls = e.Replacee.GetClassName();
+			switch (cls)
+			{
+				case 'Railgun':
+					e.Replacement = "PlasmaRifle";
+					break;
+				case 'Minigun':
+					e.Replacement = "Chaingun";
+					break;
+				case 'GrenadeLauncher':
+					e.Replacement = "RocketLauncher";
+					break;
+				case 'BFG10K':
+					e.Replacement = "BFG9000";
+					break;
+			}
+		}
 	}
 }
 

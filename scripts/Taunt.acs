@@ -1,0 +1,7 @@
+#library "Taunt"
+#include "zcommon.acs"
+
+script "Taunt" (void)
+{
+	PlaySound(0, "*taunt", CHAN_VOICE);
+}
