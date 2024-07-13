@@ -1,8 +1,7 @@
 [fr]
-
 // Most of these translations are by Gez.
-
-LEVEL_DM_1 = "Centre d'entraînement";
+// skulltag_data.pk3
+LEVEL_DM_1 = "Centre d'entraï¿½nement";
 LEVEL_DM_2 = "Centre d'examen";
 LEVEL_DM_3 = "Centre de combat";
 LEVEL_DM_4 = "Complexe de confinement";
@@ -17,9 +16,9 @@ LEVEL_DM_SEC = "Niveau secret quelconque";
 LEVEL_DUEL_1 = "Station Alpha";
 LEVEL_DUEL_2 = "Base Delta";
 LEVEL_DUEL_3 = "Raccord Sigma";
-LEVEL_DUEL_4 = "Ecosystème";
+LEVEL_DUEL_4 = "Ecosystï¿½me";
 LEVEL_DUEL_5 = "Court de ruine";
-LEVEL_DUEL_6 = "Bord du désespoir";
+LEVEL_DUEL_6 = "Bord du dï¿½sespoir";
 LEVEL_DUEL_7 = "Vers l'enfer";
 LEVEL_DUEL_8 = "Domaine impie";
 LEVEL_DUEL_9 = "Jugement dernier";
@@ -30,37 +29,40 @@ LEVEL_LMS_1 = "Couloir furtif";
 LEVEL_LMS_2 = "Couloir de survie";
 LEVEL_LMS_3 = "Couloir de la mort";
 LEVEL_LMS_4 = "Zone de stockage";
-LEVEL_LMS_5 = "Terrain perforé";
+LEVEL_LMS_5 = "Terrain perforï¿½";
 LEVEL_LMS_6 = "Cauchemar incessant";
 LEVEL_LMS_7 = "Ravines ruisselantes";
-LEVEL_LMS_8 = "Antre oubliée";
+LEVEL_LMS_8 = "Antre oubliï¿½e";
 LEVEL_LMS_9 = "Bunker de falaise";
-LEVEL_LMS_10 = "Sombre haîne";
+LEVEL_LMS_10 = "Sombre haï¿½ne";
 
 LEVEL_CTF_1 = "Le Vaisseau de Bataille";
 LEVEL_CTF_2 = "Mt. Capture";
 LEVEL_CTF_3 = "Vide Temple";
-LEVEL_CTF_4 = "Area -51 Degrés Celsius";
+LEVEL_CTF_4 = "Area -51 Degrï¿½s Celsius";
 LEVEL_CTF_5 = "Manoir Massmouth";
 LEVEL_CTF_6 = "Ruines sanglantes";
-LEVEL_CTF_7 = "Tanière de Sainteté";
-LEVEL_CTF_8 = "Demeure funèbre";
-LEVEL_CTF_9 = "Désastre";
-LEVEL_CTF_10 = "Mer condamnée";
+LEVEL_CTF_7 = "Taniï¿½re de Saintetï¿½";
+LEVEL_CTF_8 = "Demeure funï¿½bre";
+LEVEL_CTF_9 = "Dï¿½sastre";
+LEVEL_CTF_10 = "Mer condamnï¿½e";
 
 LEVEL_ST_1 = "Fort Damnation";
 LEVEL_ST_2 = "Cercle de feu";
 LEVEL_ST_3 = "Forteresse sanglante";
-LEVEL_ST_4 = "'O de Dévastation";
-LEVEL_ST_5 = "Délire acide";
-LEVEL_ST_6 = "Canyon du saut à la roquette";
+LEVEL_ST_4 = "'O de Dï¿½vastation";
+LEVEL_ST_5 = "Dï¿½lire acide";
+LEVEL_ST_6 = "Canyon du saut ï¿½ la roquette";
 LEVEL_ST_7 = "Vide infini";
 LEVEL_ST_8 = "Station 12";
 LEVEL_ST_9 = "Orbiteur galactique";
-LEVEL_ST_10 = "Course au néant";
+LEVEL_ST_10 = "Course au nï¿½ant";
 
 LEVEL_INV_1 = "Gloire de Belphegor";
-LEVEL_INV_2 = "Forteresse Abandonnée";
-LEVEL_INV_3 = "Dépôt des Toxines";
+LEVEL_INV_2 = "Forteresse Abandonnï¿½e";
+LEVEL_INV_3 = "Dï¿½pï¿½t des Toxines";
 LEVEL_INV_4 = "Inferno";
-LEVEL_INV_5 = "Misérable Trépas";
+LEVEL_INV_5 = "Misï¿½rable Trï¿½pas";
+
+// skulltag.pk3
+// G: ...there are no translations! damn.

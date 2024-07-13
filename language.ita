@@ -1,5 +1,6 @@
 [ita]
 
+// skulltag_data.pk3
 LEVEL_DM_1 = "Centro di Esercitazione";
 LEVEL_DM_2 = "Centro di Sperimentazione";
 LEVEL_DM_3 = "Centro di Battaglia";
@@ -63,3 +64,6 @@ LEVEL_INV_2 = "La Fortezza Abbandonata";
 LEVEL_INV_3 = "Deposito di Tossine";
 LEVEL_INV_4 = "Inferno";
 LEVEL_INV_5 = "Morte Sventurata";
+
+// skulltag.pk3
+// G: ...there are no translations! damn.
