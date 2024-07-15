@@ -19,3 +19,65 @@ ACTOR Hissy 5057
 		Wait
 	}
 }
+
+//=================================================================================================
+//
+// Light sources
+//
+//=================================================================================================
+
+ACTOR ShortYellowTorch 6000
+{
+  Radius 16
+  Height 37
+  ProjectilePassHeight -16
+  +SOLID
+  States
+  {
+  Spawn:
+    SMYT ABCD 4 Bright
+    Loop
+  }
+}
+
+ACTOR ShortWhiteTorch 6001
+{
+  Radius 16
+  Height 37
+  ProjectilePassHeight -16
+  +SOLID
+  States
+  {
+  Spawn:
+    SMWT ABCD 4 Bright
+    Loop
+  }
+}
+
+ACTOR YellowTorch 6002
+{
+  Radius 16
+  Height 68
+  ProjectilePassHeight -16
+  +SOLID
+  States
+  {
+  Spawn:
+    TYEL ABCD 4 Bright
+    Loop
+  }
+}
+
+ACTOR WhiteTorch 6003
+{
+  Radius 16
+  Height 68
+  ProjectilePassHeight -16
+  +SOLID
+  States
+  {
+  Spawn:
+    TWHI ABCD 4 Bright
+    Loop
+  }
+}
