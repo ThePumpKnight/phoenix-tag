@@ -1,10 +1,10 @@
 // G: Weapon decals shouldn't have to be defined here? But also, better safe than sorry.
-generator Minigun               BulletChip
-generator BFG10K                BFGLightning
-generator Railgun               RailScorch
+generator PTag_Minigun			BulletChip
+generator PTag_BFG10K			BFGLightning
+generator PTag_Railgun			RailScorch
 
-generator SuperShotgunGuy       BulletChip
-generator BelphegorBall         BaronScorch
-generator CacolanternBall       CacoScorch
-generator DarkImpBall           DoomImpScorch
-generator HectShot              Scorch
+generator SuperShotgunGuy		BulletChip
+generator BelphegorBall			BaronScorch
+generator CacolanternBall		CacoScorch
+generator DarkImpBall			DoomImpScorch
+generator HectShot				Scorch

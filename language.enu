@@ -241,3 +241,8 @@ CC_HECTEBUS = "HECTEBUS";
 // PhoenixTag-exclusive text
 //PTAG_OPTIONS_TITLE = "\cn☠\c- PhoenixTag options"; // Cyan skull
 PTAG_OPTIONS_TITLE = "\cx⎎\c- PhoenixTag options"; // Fire "Hysteresis Symbol" (G: it looks like Mogura from Nichijou, which is the closest I can get to a bird, lol)
+
+TAG_PTAG_MINIGUN = "Minigun";
+TAG_PTAG_BFG10K = "BFG10K";
+TAG_PTAG_RAILGUN = "Railgun";
+TAG_PTAG_GRENADELAUNCHER = "Grenade Launcher";

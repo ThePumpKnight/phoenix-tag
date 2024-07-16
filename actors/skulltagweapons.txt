@@ -4,7 +4,7 @@
 //
 //=================================================================================================
 
-ACTOR PTag_Minigun : Weapon 5014
+ACTOR PTag_Minigun : DoomWeapon 5014
 {
 	SpawnID 214
 	Radius 20
@@ -13,8 +13,8 @@ ACTOR PTag_Minigun : Weapon 5014
 	Weapon.AmmoGive 20
 	Weapon.AmmoUse 1
 	Weapon.Selectionorder 700
-	Weapon.Kickback 100
 	Weapon.SlotNumber 4 // This line isn't in skulltag.pk3, which instead defines the slot directly in DoomPlayer
+	Tag "$TAG_PTAG_MINIGUN"
 	Inventory.PickupMessage "$PICKUP_MINIGUN" // "You got the minigun!"
 	Obituary "$OB_MINIGUN" // "%o was drilled by %k's minigun."
 	AttackSound "weapons/minigun"
@@ -66,6 +66,7 @@ ACTOR PTag_Railgun : DoomWeapon 5012
 	Weapon.AmmoGive 40
 	Weapon.AmmoType "Cell"
 	Weapon.SlotNumber 6 // This line isn't in skulltag.pk3, which instead defines the slot directly in DoomPlayer
+	Tag "$TAG_PTAG_RAILGUN"
 	Inventory.Pickupmessage "$PICKUP_RAILGUN" // "You got the railgun!"
 	Obituary "$OB_RAILGUN" // "%o was railed by %k."
 	States
@@ -132,8 +133,8 @@ ACTOR PTag_BFG10K : DoomWeapon 5013
 	Weapon.AmmoUse 5
 	Weapon.AmmoGive 40
 	Weapon.AmmoType "Cell"
-	Weapon.Kickback 100
 	Weapon.SlotNumber 7 // This line isn't in skulltag.pk3, which instead defines the slot directly in DoomPlayer
+	Tag "$TAG_PTAG_BFG10K"
 	Inventory.Pickupmessage "$PICKUP_BFG10K" // "You got the BFG10000!	Hell, yes!"
 	+WEAPON.NOAUTOFIRE
 	+WEAPON.NOLMS
@@ -240,8 +241,8 @@ ACTOR PTag_GrenadeLauncher : DoomWeapon 5011
 	Weapon.AmmoUse 1
 	Weapon.AmmoGive 2
 	Weapon.AmmoType "RocketAmmo"
-	Weapon.Kickback 100
 	Weapon.SlotNumber 5 // This line isn't in skulltag.pk3, which instead defines the slot directly in DoomPlayer
+	Tag "$TAG_PTAG_GRENADELAUNCHER"
 	Inventory.PickupMessage "$PICKUP_GRENADELAUNCHER" // "You got the grenade launcher!"
 
 	// action native A_FireSTGrenade ();
