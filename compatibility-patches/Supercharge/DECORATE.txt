@@ -1,13 +1,13 @@
 // WEAPONS
-actor PTag_TangoMinigunSpawner : RandomSpawner replaces Minigun
+actor PTag_TangoMinigunSpawner : RandomSpawner replaces PTag_Minigun
 {
 	DropItem "TangoMinigun"
 }
-actor PTag_StomperSpawner : RandomSpawner replaces GrenadeLauncher
+actor PTag_StomperSpawner : RandomSpawner replaces PTag_GrenadeLauncher
 {
 	DropItem "TangoStomper"
 }
-actor PTag_TangoScrapgunSpawner : RandomSpawner replaces Railgun
+actor PTag_TangoScrapgunSpawner : RandomSpawner replaces PTag_Railgun
 {
 	DropItem "TangoScrapgun"
 }

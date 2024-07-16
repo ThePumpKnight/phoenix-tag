@@ -4,7 +4,7 @@
 //
 //=================================================================================================
 
-ACTOR Minigun : Weapon 5014
+ACTOR PTag_Minigun : Weapon 5014
 {
 	SpawnID 214
 	Radius 20
@@ -56,7 +56,7 @@ ACTOR Minigun : Weapon 5014
 //
 //=================================================================================================
 
-ACTOR Railgun : DoomWeapon 5012
+ACTOR PTag_Railgun : DoomWeapon 5012
 {
 	SpawnID 164
 	Radius 20
@@ -104,7 +104,7 @@ ACTOR Railgun : DoomWeapon 5012
 // [TP] This allows the railgun to pierce armor
 //
 //=================================================================================================
-ACTOR RailgunPuff : BulletPuff
+ACTOR PTag_RailgunPuff : BulletPuff
 {
 	DamageType Railgun
 	+PIERCEARMOR
@@ -123,7 +123,7 @@ ACTOR RailgunPuff : BulletPuff
 //
 //=================================================================================================
 
-ACTOR BFG10K : DoomWeapon 5013
+ACTOR PTag_BFG10K : DoomWeapon 5013
 {
 	SpawnID 165
 	Radius 20
@@ -173,7 +173,7 @@ ACTOR BFG10K : DoomWeapon 5013
 		Goto Hold
 	Hold:
 		BG2G K 2 A_GunFlash
-		BG2G L 2 A_FireBullets(0,0,1,0,"BFG10kShot")
+		BG2G L 2 A_FireBullets(0,0,1,0,"PTag_BFG10kShot")
 		BG2G M 2
 		BG2G N 0 A_ReFire
 		BG2G O 35 A_PlaySound ("weapons/bfg10kcool")
@@ -192,7 +192,7 @@ ACTOR BFG10K : DoomWeapon 5013
 //
 //=================================================================================================
 
-ACTOR BFG10kShot
+ACTOR PTag_BFG10kShot
 {
 	SpawnID 217
 	Radius 11
@@ -229,7 +229,7 @@ ACTOR BFG10kShot
 //
 //=================================================================================================
 
-ACTOR GrenadeLauncher : DoomWeapon 5011
+ACTOR PTag_GrenadeLauncher : DoomWeapon 5011
 {
 	SpawnID 163
 	Radius 20

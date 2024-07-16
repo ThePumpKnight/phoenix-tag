@@ -292,25 +292,25 @@ class PTag_SpawnerReplacer : StaticEventHandler
 			{
 				case 'PlasmaRifle':
 					if (random(0, 1) == 1)
-						e.Replacement = "Railgun";
+						e.Replacement = "PTag_Railgun";
 					else
 						e.Replacement = "PlasmaRifle";
 					break;
 				case 'Chaingun':
 					if (random(0, 1) == 1)
-						e.Replacement = "Minigun";
+						e.Replacement = "PTag_Minigun";
 					else
 						e.Replacement = "Chaingun";
 					break;
 				case 'RocketLauncher':
 					if (random(0, 1) == 1)
-						e.Replacement = "GrenadeLauncher";
+						e.Replacement = "PTag_GrenadeLauncher";
 					else
 						e.Replacement = "RocketLauncher";
 					break;
 				case 'BFG9000':
 					if (random(0, 1) == 1)
-						e.Replacement = "BFG10K";
+						e.Replacement = "PTag_BFG10K";
 					else
 						e.Replacement = "BFG9000";
 					break;
@@ -321,16 +321,16 @@ class PTag_SpawnerReplacer : StaticEventHandler
 			let cls = e.Replacee.GetClassName();
 			switch (cls)
 			{
-				case 'Railgun':
+				case 'PTag_Railgun':
 					e.Replacement = "PlasmaRifle";
 					break;
-				case 'Minigun':
+				case 'PTag_Minigun':
 					e.Replacement = "Chaingun";
 					break;
-				case 'GrenadeLauncher':
+				case 'PTag_GrenadeLauncher':
 					e.Replacement = "RocketLauncher";
 					break;
-				case 'BFG10K':
+				case 'PTag_BFG10K':
 					e.Replacement = "BFG9000";
 					break;
 			}

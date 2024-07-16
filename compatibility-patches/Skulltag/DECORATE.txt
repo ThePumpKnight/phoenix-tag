@@ -1,0 +1,6 @@
+actor Minigun : PTag_Minigun replaces PTag_Minigun {}
+actor GrenadeLauncher : PTag_GrenadeLauncher replaces PTag_GrenadeLauncher {}
+actor Railgun : PTag_Railgun replaces PTag_Railgun {}
+actor RailgunPuff : PTag_RailgunPuff replaces PTag_RailgunPuff {}
+actor BFG10K : PTag_BFG10K replaces PTag_BFG10K {}
+actor BFG10kShot : PTag_BFG10kShot replaces PTag_BFG10kShot {}
