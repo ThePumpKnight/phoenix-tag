@@ -217,3 +217,112 @@ LEVEL_SP_PRE_29 = "livello 29";
 LEVEL_SP_PRE_30 = "livello 30";
 LEVEL_SP_PRE_31 = "livello 31";
 LEVEL_SP_PRE_32 = "livello 32";
+
+[es]
+//Weapons
+//minigun
+PICKUP_MINIGUN = "¡Has cogido la Ametralladora!";
+OB_MINIGUN = "%o fue perforado por la Ametralladora de %k.";
+OB_MINIGUN_2 = "%o fue pulverizado por la Ametralladora de %k.";
+
+//grenade launcher
+PICKUP_GRENADELAUNCHER = "¡Has cogido el Lanzagranadas!";
+
+//railgun
+PICKUP_RAILGUN = "¡Has cogido el Cañón de Riel!";
+
+//bfg10k
+PICKUP_BFG10K = "¡Has cogido la BFG10000! ¡Sí señor!";
+OB_BFG10K = "%o fue desintegrado por la BFG10K de %k.";
+OB_BFG10K_RARE = "%o se le volatilizó el culo por la BFG10K de %k.";
+OB_BFG10K_SELF = "%o fue descuidado con su BFG10K.";
+
+
+//Monsters
+//obituaries
+OB_CACODEMON_MELEE_RARE = "%o intentó hacerse amigo de un Cacodemonio.";
+OB_BARON_MELEE_RARE = "%o fue abofeteado por un Barón del Infierno.";
+OB_DARKIMP_MELEE = "%o fue rajado por un Imp Oscuro.";
+OB_DARKIMP = "%o fue quemado por un Imp Oscuro.";
+OB_BLOODDEMON_MELEE = "%o fue devorado por un Demonio Sangriento.";
+OB_SSGGUY = "%o fue asaltado por un tío con la Super Escopeta.";
+OB_BELPHEGOR_MELEE = "%o fue asesinado por un Belphegor.";
+OB_BELPHEGOR = "%o fue asesinado por un Belphegor.";
+OB_CACOLANTERN_MELEE = "%o estaba muy cerca a un Cacolantern.";
+OB_CACOLANTERN = "%o fue golpeado por un Cacolantern.";
+OB_ABADDON_MELEE = "%o se convirtió en comida para el Abadon.";
+OB_ABADDON = "%o fue golpeado por un Abaddon.";
+OB_HECTEBUS = "%o fue incinerado por un Hectebus.";
+
+//cast call
+CC_SSGGUY = "TÍO CON SUPER ESCOPETA";
+CC_DARKIMP = "IMP OSCURO";
+CC_BLOODDEMON = "DEMONIO SANGRIENTO";
+CC_CACOLANTERN = "CACOLANTERN";
+CC_HECTEBUS = "HECTEBUS";
+
+
+//Items
+PICKUP_REDARMOR = "¡Has conseguido la Armadura Roja!";
+
+
+//Episodes
+//cluster strings.
+DM1TEXT =
+		"ENHORABUENA, HAS ENCONTRADO LO QUE NADIE\n"
+		"PODRÍA HABER SOSPECHADO JAMÁS:\n"
+		"¡EL NIVEL DEATHMATCH SECRETO! DATE UNA\n"
+		"PALMADITA A TÍ MISMO EN LA ESPALDA Y\n"
+		"PREPARATE... ¡ES HORA DE LUCHAR!\n";
+DM2TEXT =
+		"EL MAYOR MAK QUE EL MUNDO HA CONOCIDO\n"
+		"HA SIDO ASESINADO AL FIN. LINGUICA, LA\n"
+		"\"SALCHICHA DE LA MUERTE\", NO TENDRÁ A\n"
+		"LOS PELUCHES DE CACODEMONIOS PRESOS NUNCA\n"
+		"MÁS. MIRAS DESDE LEJOS COMO LA GUARIDA DE\n"
+		"LINGUICA, QUE SERVÍA DE PRISIÓN A HISSY,\n"
+		"SE DERRUMBA SOBRE EL SUELO\n"
+		"¡HISSY ES LIBRE! VES CON FELICIDAD COMO\n"
+		"EL PELUCHE DEL CACODEMONIO HISSY EMERGE\n"
+		"DE ENTRE LOS ESCOMBROS, DÁNDOTE UN FELIZ\n"
+		"\"HISS\" DE DESPEDIDA, Y FLOTA ALEJÁNDOSE\n"
+		"FELIZ. RESPIRAS CON ALIVIO, SABIENDO QUE\n"
+		"HISSY, Y TODOS LOS PELUCHES DE CACODEMONIOS\n"
+		"PUEDEN REVOLOTEAR LIBRES DE NUEVO.";
+
+//	{ str_notchanged, "STSTR_HISSYON", "Fearless Rage Mode ON", NULL },
+//	{ str_notchanged, "STSTR_HISSYOFF", "Fearless Rage Mode OFF", NULL },
+
+// Level names.
+LEVEL_SP_PRE_1 = "Nivel 1";
+LEVEL_SP_PRE_2 = "Nivel 2";
+LEVEL_SP_PRE_3 = "Nivel 3";
+LEVEL_SP_PRE_4 = "Nivel 4";
+LEVEL_SP_PRE_5 = "Nivel 5";
+LEVEL_SP_PRE_6 = "Nivel 6";
+LEVEL_SP_PRE_7 = "Nivel 7";
+LEVEL_SP_PRE_8 = "Nivel 8";
+LEVEL_SP_PRE_9 = "Nivel 9";
+LEVEL_SP_PRE_10 = "Nivel 10";
+LEVEL_SP_PRE_11 = "Nivel 11";
+LEVEL_SP_PRE_12 = "Nivel 12";
+LEVEL_SP_PRE_13 = "Nivel 13";
+LEVEL_SP_PRE_14 = "Nivel 14";
+LEVEL_SP_PRE_15 = "Nivel 15";
+LEVEL_SP_PRE_16 = "Nivel 16";
+LEVEL_SP_PRE_17 = "Nivel 17";
+LEVEL_SP_PRE_18 = "Nivel 18";
+LEVEL_SP_PRE_19 = "Nivel 19";
+LEVEL_SP_PRE_20 = "Nivel 20";
+LEVEL_SP_PRE_21 = "Nivel 21";
+LEVEL_SP_PRE_22 = "Nivel 22";
+LEVEL_SP_PRE_23 = "Nivel 23";
+LEVEL_SP_PRE_24 = "Nivel 24";
+LEVEL_SP_PRE_25 = "Nivel 25";
+LEVEL_SP_PRE_26 = "Nivel 26";
+LEVEL_SP_PRE_27 = "Nivel 27";
+LEVEL_SP_PRE_28 = "Nivel 28";
+LEVEL_SP_PRE_29 = "Nivel 29";
+LEVEL_SP_PRE_30 = "Nivel 30";
+LEVEL_SP_PRE_31 = "Nivel 31";
+LEVEL_SP_PRE_32 = "Nivel 32";
