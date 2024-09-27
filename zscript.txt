@@ -1,4 +1,4 @@
-version "4.12.2"
+version "4.11.3"
 
 #include "zscript/powerups.zs" // More complex powerups, like Prosperity and Spread
 #include "zscript/eventhandlers.zs" // Event handlers, like the weapon/item spawner replacer
