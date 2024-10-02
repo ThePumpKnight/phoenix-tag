@@ -7,9 +7,13 @@ One of the main objectives I had when creating this mod was to make possible the
 
 ### · Mods with CPs included
 Inside this mod´s .zip you will find a folder named "compatibility patches", or "CP" from now onwards here. These CP are files that MUST be loaded externally alongside PhoenixTag itself and the mod you want to play, since unfortunately we weren´t able to directly make the mod compatible just by loading it with PT. Most of these mods are Skulltag-based GZDoom mods that include several resources that produce either visual or gameplay bugs, when not crashing directly. Therefore, if a mod doesn´t work directly with PhoenixTag on the go, be sure to either take a look at the folder or the list below and see if your mod is included. If it is, you CAN play the mod with PhoenixTag, here´s how:
+
 1º) Extract the "compatibility patches" folder from PhoenixTag.zip. There´s no need to extract the whole mod, just the CP folder.
+
 2º) Open the extracted CP folder and search for your mod. Once you find the proper folder, compress it into a .zip file using WinRaR or a similar program. IF YOUR MOD IS SKULLTAG BASED, also apply these instructions to the Skulltag folder, located on the same CP folder under PhoenixTag.
+
 3º) Open a mod-loading program for DooM, like ZDL, and put the mods in the following loading order:
+
 phoenix-tag.zip
 Skulltag.zip (The one you previously compressed, ONLY IF IT´S A SKULLTAG MOD)
 (Your mod here)
