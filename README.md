@@ -15,9 +15,13 @@ Inside this mod´s .zip you will find a folder named "compatibility patches", or
 3º) Open a mod-loading program for DooM, like ZDL, and put the mods in the following loading order:
 
 phoenix-tag.zip
+
 Skulltag.zip (The one you previously compressed, ONLY IF IT´S A SKULLTAG MOD)
+
 (Your mod here)
-(The proper compatibility patch)
+(
+The proper compatibility patch)
+
 
 ### · Mods without CP
 There are several mods that don´t work with CP themselves, since compatibility is already included with the base PhoenixTag. However, there are a series of options that should be toggled off when playing with mods and not the default "vanilla" experience, since keeping them on might cause gameplay and visual problems. Such options can be found at the bottom of the default GZDoom option menu, and are listed below:
@@ -25,6 +29,7 @@ There are several mods that don´t work with CP themselves, since compatibility 
 `Replace Runes`: with this option enabled, runes will randomly replace some powerups with runes. For example, a backpack may be replaced by a Rage rune.
 `Replace Items`: with this option enabled, items will randomly get replaced with Skulltag related ones. For example, a blue armor might get turned into a red one.
 `Replace Weapons`: with this option enabled, weapons will randomly get replaced with Skulltag equivalents. For example, the plasma rifle can be replaced by the railgun.
+
 
 ## LIST OF COMPATIBLE MODS
 If the mod is listed with [CP] next to it, it means that is playable via the use of compatibility patches.
