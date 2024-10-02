@@ -19,8 +19,8 @@ phoenix-tag.zip
 Skulltag.zip (The one you previously compressed, ONLY IF IT´S A SKULLTAG MOD)
 
 (Your mod here)
-(
-The proper compatibility patch)
+
+(The proper compatibility patch)
 
 
 ### · Mods without CP
