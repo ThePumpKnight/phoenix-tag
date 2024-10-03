@@ -37,4 +37,6 @@ If the mod is listed with [CP] next to it, it means that is playable via the use
  - Brutal Pack
  - Beautiful Doom
  - Project Brutality
+ - Hideous Destructor
+ - H-Doom
  - Supercharge [CP]
