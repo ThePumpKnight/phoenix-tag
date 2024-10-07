@@ -36,6 +36,7 @@ If the mod is listed with [CP] next to it, it means that is playable via the use
  - Beautiful Doom
  - Brutal Doom
  - Brutal Pack
+ - Call of Doom: Tarkov
  - Deathstrider [!]
  - H-Doom
  - Hideous Destructor [!]
@@ -43,4 +44,5 @@ If the mod is listed with [CP] next to it, it means that is playable via the use
  - Pandora´s Wrath
  - Project Brutality
  - Supercharge [CP]
+ 
  IMPORTANT NOTE: HUD related mods, music mods and similars are already supposed to work with PhoenixTag, unless stated otherwise.

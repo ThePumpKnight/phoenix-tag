@@ -3,15 +3,19 @@ OptionMenu ptag_Options
 	Title "PhoenixTag Options"
 
 	StaticText "With this option enabled, PhoenixTag will attempt to replace monsters randomly with a Skulltag one.","Gold"
+	StaticText "TURN THIS OFF IF YOU ARE PLAYING WITH MODS","Gold"
 	Option "Replace monsters"	, ptag_replacemonsters	, OnOff
 	StaticText " "
 	StaticText "With this option enabled, PhoenixTag will randomly replace pre-placed runes with a random, different one.","Gold"
+	StaticText "TURN THIS OFF IF YOU ARE PLAYING WITH MODS","Gold"
 	Option "Replace runes"		, ptag_replacerunes		, OnOff
 	StaticText " "
 	StaticText "With this option enabled, PhoenixTag will attempt to replace items randomly with a Skulltag equivalent.","Gold"
+	StaticText "TURN THIS OFF IF YOU ARE PLAYING WITH MODS","Gold"
 	Option "Replace items"		, ptag_replaceitems		, OnOff
 	StaticText " "
 	StaticText "With this option enabled, PhoenixTag will attempt to replace weapons randomly with their Skulltag variants.","Gold"
+	StaticText "TURN THIS OFF IF YOU ARE PLAYING WITH MODS","Gold"
 	Option "Replace weapons"	, ptag_replaceweapons	, OnOff
 	StaticText " "
 	StaticText " "
