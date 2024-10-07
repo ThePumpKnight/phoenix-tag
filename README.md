@@ -33,12 +33,14 @@ There are several mods that don´t work with CP themselves, since compatibility 
 
 ## LIST OF COMPATIBLE MODS
 If the mod is listed with [CP] next to it, it means that is playable via the use of compatibility patches. If it is listed with an [!] next to it, it means that despite the fact that the mod is technically playable with PhoenixTag, it might not play as intended and the gameplay might be harder than expected.
+ - Beautiful Doom
  - Brutal Doom
  - Brutal Pack
- - Beautiful Doom
- - Project Brutality
- - Hideous Destructor [!]
  - Deathstrider [!]
  - H-Doom
+ - Hideous Destructor [!]
  - Lost in Darkness [!]
+ - Pandora´s Wrath
+ - Project Brutality
  - Supercharge [CP]
+ IMPORTANT NOTE: HUD related mods, music mods and similars are already supposed to work with PhoenixTag, unless stated otherwise.
