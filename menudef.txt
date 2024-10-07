@@ -2,11 +2,23 @@ OptionMenu ptag_Options
 {
 	Title "PhoenixTag Options"
 
-	StaticText ""
+	StaticText "With this option enabled, PhoenixTag will attempt to replace monsters randomly with a Skulltag one.","Gold"
 	Option "Replace monsters"	, ptag_replacemonsters	, OnOff
+	StaticText " "
+	StaticText "With this option enabled, PhoenixTag will randomly replace pre-placed runes with a random, different one.","Gold"
 	Option "Replace runes"		, ptag_replacerunes		, OnOff
+	StaticText " "
+	StaticText "With this option enabled, PhoenixTag will attempt to replace items randomly with a Skulltag equivalent.","Gold"
 	Option "Replace items"		, ptag_replaceitems		, OnOff
+	StaticText " "
+	StaticText "With this option enabled, PhoenixTag will attempt to replace weapons randomly with their Skulltag variants.","Gold"
 	Option "Replace weapons"	, ptag_replaceweapons	, OnOff
+	StaticText " "
+	StaticText " "
+	StaticText "If the difficulty tweaker is at 0, easier spawns will appear per each difficulty level.","Gold"
+	StaticText "If it is 2, harder horders will take place instead.","Gold"
+	StaticText "Use mainly to tweak the spawns with mods enabled to adjust difficulty spike.","Gold"
+	Slider "Difficulty Tweaker"	, ptag_difficultytweaker	, 0, 2, 1
 }	
 
 // Entry points

@@ -3,3 +3,4 @@ server bool ptag_replacerunes = true;
 server bool ptag_replaceitems = true;
 server bool ptag_replaceweapons = true;
 server int ptag_setwave = 0;
+server int ptag_difficultytweaker = 1;
