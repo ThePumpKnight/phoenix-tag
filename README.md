@@ -35,7 +35,9 @@ There are several mods that don´t work with CP themselves, since compatibility 
 If the mod is listed with [CP] next to it, it means that is playable via the use of compatibility patches. If it is listed with an [!] next to it, it means that despite the fact that the mod is technically playable with PhoenixTag, it might not play as intended and the gameplay might be harder than expected. If it has a [+], it means you can play it with the usual options turned `On` too if you want, since those mods won´t cause bugs or instability problems with such options.
  - Beautiful Doom
  - Brutal Doom
+ - Brutal Doom: Platinum
  - Brutal Pack
+ - Brutal Voxel Doom
  - Call of Doom: Tarkov
  - Deathstrider [!]
  - H-Doom
@@ -44,5 +46,6 @@ If the mod is listed with [CP] next to it, it means that is playable via the use
  - Pandora´s Wrath [+]
  - Project Brutality
  - Supercharge [CP]
+ - Voxel Doom
  
  IMPORTANT NOTE: HUD related mods, music mods and similars are already supposed to work with PhoenixTag, unless stated otherwise.
