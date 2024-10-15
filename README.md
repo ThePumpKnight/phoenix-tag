@@ -52,6 +52,7 @@ If the mod is listed with [CP] next to it, it means that is playable via the use
  - Lost in Darkness [!]
  - Pandora´s Wrath [+]
  - Project Brutality
+ - Project Malice
  - Supercharge [CP]
  - Voxel Doom
  
