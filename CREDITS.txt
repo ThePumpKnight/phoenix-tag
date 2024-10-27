@@ -6,9 +6,20 @@ me (Pump_Knight), who brought the main concepts of how the mod would be focused
 around and also the main map system code; whereas Gemini0 has been an inmense
 help with anything related to the general code oriented towards Zscript and so
 on, as well as the combination/linking with GitHub.
+We would also like to thank the impressive work the Skulldash team did on the
+Skulldash project, porting many (if not all and more) Skulltag features back 
+into modern GZDoom even before we even attempted to try, as well as giving their
+project their very own great personal touch. On this regard, I must specifically
+thank them for letting me use Remmirath´s code from the Spread rune, a work 
+without which I´d had probably been struggling with that rune for the following
+hundred years.
+Last but not least, a big thank you to all of the original Skulltag team for
+having such an original idea back in the day. All these gamemodes, these maps
+and these creations were never forgotten, and I couldn´t be happier to bring
+them back to their former glory the best I could possibly do.
 
 IN MEMORIAM:
-TiberiumSoul
+- TiberiumSoul
 
 Other credits:
 - Phoenix clipart used in folder.ico: https://png.pngtree.com/png-clipart/20220430/original/pngtree-flying-phoenix-bird-clipart-png-image_7597896.png (this site looks HELLA scammy lol -G)

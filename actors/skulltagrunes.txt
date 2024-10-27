@@ -7,46 +7,74 @@
  ACTOR Rune : Powerup
  {
  }
+ 
+ ACTOR RuneGiver : CustomInventory // Solely for the Spread rune copy-paste
+{
+	Inventory.MaxAmount 1
+}
+
+ACTOR SpreadRuneGiver : RuneGiver 5103
+{
+	+COUNTITEM
+	+NOGRAVITY
+	+FLOATBOB
+	+INVENTORY.AUTOACTIVATE
+	Inventory.Icon SPRRA0
+	Inventory.PickupMessage "Spread!"
+	States
+	{
+	Spawn:
+		SPRR ABCD 6
+		Loop
+	Pickup:
+		TNT1 A 0 A_PlaySound("sounds/spread",5)
+		TNT1 A 0 A_GiveInventory("SpreadRune",1)
+		Stop
+	}
+}
 
 actor PowerDoubleDamage : PowerDamage
 {
 	DamageFactor "normal", 2
 	Inventory.Icon "STRRA0"
+	Inventory.MaxAmount 1
 }
 
 ACTOR PowerIconDoubleFiringSpeed : PowerDoubleFiringSpeed
 {
 	Inventory.Icon "RAGRA0"
+	Inventory.MaxAmount 1
 }
 
 ACTOR PowerIconDrain : PowerDrain
 {
 	Inventory.Icon "DRARA0"
+	Inventory.MaxAmount 1
 }
-
-//ACTOR RuneSpread : PowerSpread <--- Undefined, needs to be fixed
-//{
-//}
 
 ACTOR PowerHalfDamage : PowerProtection
 {
 	DamageFactor "normal", 0.5
 	Inventory.Icon "RESRA0"
+	Inventory.MaxAmount 1
 }
 
 ACTOR PowerIconRegeneration : PowerRegeneration
 {
 	Inventory.Icon "REGRA0"
+	Inventory.MaxAmount 1
 }
 
 ACTOR PowerIconReflection : PowerReflection
 {
 	Inventory.Icon "REFRA0"
+	Inventory.MaxAmount 1
 }
 
 ACTOR PowerIconHighJump : PowerHighJump
 {
 	Inventory.Icon "HIJRA0"
+	Inventory.MaxAmount 1
 }
 
 ACTOR PowerIconSpeed25 : PowerSpeed
@@ -54,6 +82,7 @@ ACTOR PowerIconSpeed25 : PowerSpeed
 	Speed 1.25
 	PowerSpeed.NoTrail 1
 	Inventory.Icon "HASRA0"
+	Inventory.MaxAmount 1
 }
 
 //=================================================================================================
@@ -151,22 +180,19 @@ ACTOR DrainRune : PowerupGiver 5102
 // Spread rune
 //
 //=================================================================================================
-/*
-ACTOR SpreadRune : PowerupGiver 5103
+
+ACTOR SpreadRune : PowerupGiver
 {
-	Game Doom
-	Game Heretic
-	Game Hexen
-	SpawnID 183
 	+COUNTITEM
 	+NOGRAVITY
 	+FLOATBOB
 	+INVENTORY.AUTOACTIVATE
+	Inventory.Icon SPRRA0
 	Inventory.MaxAmount 0
-	Powerup.Duration 0x7FFFFFFD
-	Powerup.Type "PowerSpread"
-	Inventory.PickupMessage "$PICKUP_SPREAD"
-	Inventory.PickupAnnouncerEntry "spread"
+	Powerup.Duration 0x7FFFFFFF
+	Powerup.Type WeaponLevel2
+	Inventory.PickupMessage "Spread!"
+	Inventory.PickupSound "sounds/spread"
 	States
 	{
 	Spawn:
@@ -174,7 +200,7 @@ ACTOR SpreadRune : PowerupGiver 5103
 		Loop
 	}
 }
-*/
+
 //=================================================================================================
 //
 // Resistance rune
