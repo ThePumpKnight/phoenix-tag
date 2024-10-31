@@ -6,6 +6,7 @@ class PTag_SpawnerReplacer : StaticEventHandler
 		CVar replaceRunes = CVar.FindCVar('ptag_replacerunes');
 		CVar replaceItems = CVar.FindCVar('ptag_replaceitems');
 		CVar replaceWeapons = CVar.FindCVar('ptag_replaceweapons');
+		CVar disableSpread = CVar.FindCVar('ptag_disablespread');
 
 		// ========================================================
 		// Monsters
@@ -221,10 +222,12 @@ class PTag_SpawnerReplacer : StaticEventHandler
 						case 2:
 							e.Replacement = "ReflectionRune";
 							break;
-						// G: uncomment when SpreadRune is fixed
-/*						case 3:
-							e.Replacement = "SpreadRune";
-							break;*/
+						case 3:
+							if (disableSpread.GetBool())
+								e.Replacement = "Blursphere";
+							else:
+								e.Replacement = "SpreadRune";
+							break;
 						default:
 							e.Replacement = "Blursphere";
 							break;
@@ -250,6 +253,57 @@ class PTag_SpawnerReplacer : StaticEventHandler
 							break;
 					}
 					break;
+			}
+		}
+		// ========================================================
+		// Spread Rune
+		// ========================================================
+		if (disableSpread.GetBool())
+		{
+			if e.Replacee.GetClassName() == 'SpreadRune'
+			{
+				switch(random(1, 13))
+				{
+					case 1:
+						e.Replacement = "TimeFreezeSphere";
+						break;
+					case 2:
+						e.Replacement = "Doomsphere";
+						break;
+					case 3:
+						e.Replacement = "Guardsphere";
+						break;
+					case 4:
+						e.Replacement = "StrengthRune";
+						break;
+					case 5:
+						e.Replacement = "ResistanceRune";
+						break;
+					case 6:
+						e.Replacement = "RegenerationRune";
+						break;
+					case 7:
+						e.Replacement = "ReflectionRune";
+						break;
+					case 8:
+						e.Replacement = "RageRune";
+						break;
+					case 9:
+						e.Replacement = "Megasphere";
+						break;
+					case 10:
+						e.Replacement = "HasteRune";
+						break;
+					case 11:
+						e.Replacement = "DrainRune";
+						break;
+					case 12:
+						e.Replacement = "InvulnerabilitySphere";
+						break;
+					case 13:
+						e.Replacement = "Soulsphere";
+						break;
+				}
 			}
 		}
 
