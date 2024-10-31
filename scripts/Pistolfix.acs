@@ -1,0 +1,24 @@
+#library "Pistolfix"
+#include "zcommon.acs"
+
+script "Pistolfix" OPEN
+{
+	if(CheckActorInventory(1500,"Pistol")==TRUE){
+		if(GetCVar("ptag_disablespread")==FALSE){
+			GiveInventory("NewPistol",1);
+			TakeInventory("Pistol",5);
+			SetWeapon("NewPistol");
+			// Log(s:"It worked!"); <-- DEBUG
+		}
+		else{
+		// Log(s:"Trying again..."); <-- DEBUG
+		Delay(10);
+		restart;
+		}
+	}
+	else{
+		// Log(s:"Missing weapon!"); <-- DEBUG
+		Delay(10);
+		restart;
+	}
+}

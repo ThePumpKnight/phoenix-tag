@@ -18,6 +18,10 @@ OptionMenu ptag_Options
 	StaticText "TURN THIS OFF IF YOU ARE PLAYING WITH MODS","Gold"
 	Option "Replace weapons"	, ptag_replaceweapons	, OnOff
 	StaticText " "
+	StaticText "With this option enabled, PhoenixTag will remove the Spread rune from the game.","Gold"
+	StaticText "TURN THIS OFF IF YOU ARE PLAYING WITH MODS","Gold"
+	Option "Disable Spread"	, ptag_disablespread	, OnOff
+	StaticText " "
 	StaticText " "
 	StaticText "If the difficulty tweaker is at 0, easier spawns will appear per each difficulty level.","Gold"
 	StaticText "If it is 2, harder horders will take place instead.","Gold"

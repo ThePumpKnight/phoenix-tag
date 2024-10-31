@@ -358,3 +358,21 @@ ACTOR HasteRune : PowerupGiver 5109
 		Loop
 	}
 }
+
+//=================================================================================================
+//
+// SPREAD RUNE REPLACER!!
+//
+//=================================================================================================
+
+ACTOR SpreadRuneReplacer : RandomSpawner
+{
+	DropItem "HasteRune"
+	DropItem "HighJumpRune"
+	DropItem "ReflectionRune"
+	DropItem "RegenerationRune"
+	DropItem "ResistanceRune"
+	DropItem "DrainRune"
+	DropItem "RageRune"
+	DropItem "StrengthRune"
+}
