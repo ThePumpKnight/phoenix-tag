@@ -33,6 +33,8 @@ There are several mods that don´t work with CP themselves, since compatibility 
 
 `Replace Weapons`: with this option enabled, weapons will randomly get replaced with Skulltag equivalents. For example, the plasma rifle can be replaced by the railgun.
 
+`Disable Spread`: with this option enabled, the Spread rune will get replaced by another randomly chosen rune.
+
 There are also other options to make it possible to tweak the maps settings, see below:
 
 `Difficulty Tweaker`: this allows you to change the amount of enemies spawned per round on Invasion gamemode maps, without forcefully making you change your difficulty settings. Useful in combination with mods that have their own difficulty levels and feel too easy or hard to beat with these maps.
