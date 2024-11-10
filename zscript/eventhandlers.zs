@@ -225,7 +225,7 @@ class PTag_SpawnerReplacer : StaticEventHandler
 						case 3:
 							if (disableSpread.GetBool())
 								e.Replacement = "Blursphere";
-							else:
+							else
 								e.Replacement = "SpreadRune";
 							break;
 						default:
@@ -260,50 +260,53 @@ class PTag_SpawnerReplacer : StaticEventHandler
 		// ========================================================
 		if (disableSpread.GetBool())
 		{
-			if e.Replacee.GetClassName() == 'SpreadRune'
+			let cls = e.Replacee.GetClassName();
+			switch(cls) // Why a simple 'if' statement wasn't working, I have no idea... Sorry, Pump. I didn't realize the mod was broken for a while.
 			{
-				switch(random(1, 13))
-				{
-					case 1:
-						e.Replacement = "TimeFreezeSphere";
-						break;
-					case 2:
-						e.Replacement = "Doomsphere";
-						break;
-					case 3:
-						e.Replacement = "Guardsphere";
-						break;
-					case 4:
-						e.Replacement = "StrengthRune";
-						break;
-					case 5:
-						e.Replacement = "ResistanceRune";
-						break;
-					case 6:
-						e.Replacement = "RegenerationRune";
-						break;
-					case 7:
-						e.Replacement = "ReflectionRune";
-						break;
-					case 8:
-						e.Replacement = "RageRune";
-						break;
-					case 9:
-						e.Replacement = "Megasphere";
-						break;
-					case 10:
-						e.Replacement = "HasteRune";
-						break;
-					case 11:
-						e.Replacement = "DrainRune";
-						break;
-					case 12:
-						e.Replacement = "InvulnerabilitySphere";
-						break;
-					case 13:
-						e.Replacement = "Soulsphere";
-						break;
-				}
+				default:
+					switch(random(1, 13))
+					{
+						case 1:
+							e.Replacement = "TimeFreezeSphere";
+							break;
+						case 2:
+							e.Replacement = "Doomsphere";
+							break;
+						case 3:
+							e.Replacement = "Guardsphere";
+							break;
+						case 4:
+							e.Replacement = "StrengthRune";
+							break;
+						case 5:
+							e.Replacement = "ResistanceRune";
+							break;
+						case 6:
+							e.Replacement = "RegenerationRune";
+							break;
+						case 7:
+							e.Replacement = "ReflectionRune";
+							break;
+						case 8:
+							e.Replacement = "RageRune";
+							break;
+						case 9:
+							e.Replacement = "Megasphere";
+							break;
+						case 10:
+							e.Replacement = "HasteRune";
+							break;
+						case 11:
+							e.Replacement = "DrainRune";
+							break;
+						case 12:
+							e.Replacement = "InvulnerabilitySphere";
+							break;
+						case 13:
+							e.Replacement = "Soulsphere";
+							break;
+					}
+				break;
 			}
 		}
 
