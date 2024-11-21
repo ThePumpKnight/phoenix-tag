@@ -285,7 +285,7 @@ ACTOR PTag_GrenadeLauncher : DoomWeapon 5011
 //
 //=================================================================================================
 
-ACTOR NewRocketLauncher : RocketLauncher replaces RocketLauncher 2003
+ACTOR NewRocketLauncher : RocketLauncher 2003
 {
 	Weapon.SlotNumber 5
 	Weapon.SlotPriority 0
@@ -314,7 +314,7 @@ ACTOR RocketLauncherSpread : NewRocketLauncher
 	}
 }
 
-ACTOR NewSuperShotgun : SuperShotgun replaces SuperShotgun 82
+ACTOR NewSuperShotgun : SuperShotgun 82
 {
 	Weapon.SlotNumber 3
 	Weapon.SlotPriority 1
@@ -355,7 +355,7 @@ ACTOR SuperShotgunSpread : NewSuperShotgun
 	}
 }
 
-ACTOR NewShotgun : Shotgun replaces Shotgun 2001
+ACTOR NewShotgun : Shotgun 2001
 {
 	Weapon.SlotNumber 3
 	Weapon.SlotPriority 0
@@ -389,7 +389,7 @@ ACTOR SpreadShotgun : NewShotgun
 	}
 }
 
-ACTOR NewChaingun : Chaingun replaces Chaingun 2002
+ACTOR NewChaingun : Chaingun 2002
 {
 	Weapon.SlotNumber 4
 	Weapon.SlotPriority 0
@@ -509,7 +509,7 @@ Actor SpreadRailgun : PTag_Railgun
   }
 }
 
-Actor NewPlasmaRifle : PlasmaRifle replaces PlasmaRifle 2004
+Actor NewPlasmaRifle : PlasmaRifle 2004
 {
 	Weapon.SlotNumber 6
 	Weapon.SlotPriority 0
@@ -562,7 +562,7 @@ ACTOR PlasmaBallSpread
 	}
 }
 
-Actor NewBFG9000 : BFG9000 replaces BFG9000 2006
+Actor NewBFG9000 : BFG9000 2006
 {
 	Weapon.SlotNumber 7
 	Weapon.SisterWeapon SpreadBFG9000
@@ -685,7 +685,7 @@ Actor SpreadBFG10K : PTag_BFG10K
 	}
 }
 
-Actor NewChainsaw : Chainsaw replaces Chainsaw 2005
+Actor NewChainsaw : Chainsaw 2005
 {
 	Weapon.SlotNumber 1
 	Weapon.SlotPriority 1

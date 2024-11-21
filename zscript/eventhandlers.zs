@@ -263,7 +263,7 @@ class PTag_SpawnerReplacer : StaticEventHandler
 			let cls = e.Replacee.GetClassName();
 			switch(cls) // Why a simple 'if' statement wasn't working, I have no idea... Sorry, Pump. I didn't realize the mod was broken for a while.
 			{
-				default:
+				case 'SpreadRune':
 					switch(random(1, 13))
 					{
 						case 1:
@@ -306,7 +306,27 @@ class PTag_SpawnerReplacer : StaticEventHandler
 							e.Replacement = "Soulsphere";
 							break;
 					}
-				break;
+				case 'NewChainsaw':
+					e.Replacement = "Chainsaw";
+					break;
+				case 'NewShotgun':
+					e.Replacement = "Shotgun";
+					break;
+				case 'NewSuperShotgun':
+					e.Replacement = "SuperShotgun";
+					break;
+				case 'NewChaingun':
+					e.Replacement = "Chaingun";
+					break;
+				case 'NewRocketLauncher':
+					e.Replacement = "RocketLauncher";
+					break;
+				case 'NewPlasmaRifle':
+					e.Replacement = "PlasmaRifle";
+					break;
+				case 'NewBFG9000':
+					e.Replacement = "BFG9000";
+					break;
 			}
 		}
 
