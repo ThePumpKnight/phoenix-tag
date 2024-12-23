@@ -33,7 +33,7 @@ There are several mods that don´t work with CP themselves, since compatibility 
 
 `Replace Weapons`: with this option enabled, weapons will randomly get replaced with Skulltag equivalents. For example, the plasma rifle can be replaced by the railgun.
 
-`Disable Spread`: with this option enabled, the Spread rune will get replaced by another randomly chosen rune.
+`Disable Spread`: with this option enabled, the Spread rune will get replaced by another randomly chosen rune. It is important to turn this on when playing with mods, since at the moment the rune not only won´t work with custom weapons, but it can also cause serious bugs.
 
 There are also other options to make it possible to tweak the maps settings, see below:
 

@@ -19,7 +19,7 @@ OptionMenu ptag_Options
 	Option "Replace weapons"	, ptag_replaceweapons	, OnOff
 	StaticText " "
 	StaticText "With this option enabled, PhoenixTag will remove the Spread rune from the game.","Gold"
-	StaticText "TURN THIS OFF IF YOU ARE PLAYING WITH MODS","Gold"
+	StaticText "TURN THIS ON IF YOU ARE PLAYING WITH MODS","Gold"
 	Option "Disable Spread"	, ptag_disablespread	, OnOff
 	StaticText " "
 	StaticText " "
