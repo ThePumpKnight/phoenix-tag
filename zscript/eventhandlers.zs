@@ -261,7 +261,7 @@ class PTag_SpawnerReplacer : StaticEventHandler
 		if (disableSpread.GetBool())
 		{
 			let cls = e.Replacee.GetClassName();
-			switch(cls) // Why a simple 'if' statement wasn't working, I have no idea... Sorry, Pump. I didn't realize the mod was broken for a while.
+			switch(cls)
 			{
 				case 'SpreadRuneGiver':
 					switch(random(1, 13))
