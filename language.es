@@ -160,8 +160,8 @@ OB_EXIT_2 = "%o seems bored on this level.";
 OB_REFLECTION = "%o was killed via %k's reflection rune.";
 
 // PhoenixTag-exclusive text
-//PTAG_OPTIONS_TITLE = "\cn☠\c- PhoenixTag options"; // Cyan skull
-PTAG_OPTIONS_TITLE = "\cx⎎\c- Opciones de PhoenixTag"; // Fire "Hysteresis Symbol" (G: it looks like Mogura from Nichijou, which is the closest I can get to a bird, lol)
+PTAG_OPTIONS_TITLE = "\cn☠\c- Opciones de Skulltag"; // Cyan skull
+PTAG_OPTIONS_TITLE2 = "\cx⎎\c- Opciones de PhoenixTag"; // Fire "Hysteresis Symbol" (G: it looks like Mogura from Nichijou, which is the closest I can get to a bird, lol)
 
 TAG_PTAG_MINIGUN = "Ametralladora";
 TAG_PTAG_BFG10K = "BFG10K";

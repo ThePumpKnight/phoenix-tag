@@ -23,19 +23,19 @@ Skulltag.zip (The one you previously compressed, ONLY IF IT´S A SKULLTAG MOD)
 (The proper compatibility patch)
 
 ### · Mods without CP
-There are several mods that don´t work with CP themselves, since compatibility is already included with the base PhoenixTag. However, there are a series of options that should be toggled off when playing with mods and not the default "vanilla" experience, since keeping them on might cause gameplay and visual problems. Such options can be found at the bottom of the default GZDoom option menu, and are listed below:
+There are several mods that don´t work with CP themselves, since compatibility is already included with the base PhoenixTag. However, there are a series of options that should be toggled off when playing with mods and not the default "vanilla" experience, since keeping them on might cause gameplay and visual problems. Such options are divided in 2 different menus, Skulltag options (which contain options related to bringing the game to its original behaviour in Skulltag) and PhoenixTag options (a mix of QoL and diverse options to enhance customization and fix compatibility bugs) can be found at the bottom of the default GZDoom option menu, and are listed below:
 
-`Replace Monsters`: with this option enabled, PhoenixTag will attempt to replace monsters randomly with a Skulltag one. For example, it´ll replace some Demons with Blood Demons, some Barons of Hell with Belphegors, and so on and so forth. 
+Skulltag options:
+`Replace Monsters`: with this option enabled, monsters will get randomly replaced by their enhaced Skulltag counterparts. For example, it´ll replace some Demons with Blood Demons, some Barons of Hell with Belphegors, and so on and so forth. Disable when playing with non-compatible mods.
 
-`Replace Runes`: with this option enabled, runes will randomly replace some powerups with runes. For example, a backpack may be replaced by a Rage rune.
+PhoenixTag options:
+`Replace Runes`: with this option enabled, runes will randomly replace pre-placed powerups. For example, a backpack may be replaced by a Rage rune. Disable when playing with non-compatible mods.
 
-`Replace Items`: with this option enabled, items will randomly get replaced with Skulltag related ones. For example, a blue armor might get turned into a red one.
+`Replace Items`: with this option enabled, items will randomly get replaced with Skulltag related ones. For example, a blue armor might get turned into a red one. Disable when playing with non-compatible mods.
 
-`Replace Weapons`: with this option enabled, weapons will randomly get replaced with Skulltag equivalents. For example, the plasma rifle can be replaced by the railgun.
+`Replace Weapons`: with this option enabled, weapons will randomly get replaced with Skulltag equivalents. For example, the plasma rifle can be replaced by the railgun. Disable when playing with non-compatible mods.
 
 `Disable Spread`: with this option enabled, the Spread rune will get replaced by another randomly chosen rune. It is important to turn this on when playing with mods, since at the moment the rune not only won´t work with custom weapons, but it can also cause serious bugs.
-
-There are also other options to make it possible to tweak the maps settings, see below:
 
 `Difficulty Tweaker`: this allows you to change the amount of enemies spawned per round on Invasion gamemode maps, without forcefully making you change your difficulty settings. Useful in combination with mods that have their own difficulty levels and feel too easy or hard to beat with these maps.
 
@@ -58,4 +58,4 @@ If the mod is listed with [CP] next to it, it means that is playable via the use
  - Supercharge [CP]
  - Voxel Doom
  
- IMPORTANT NOTE: HUD related mods, music mods and similars are already supposed to work with PhoenixTag, unless stated otherwise.
+ IMPORTANT NOTE: HUD related mods, music mods and similars are already supposed to work with PhoenixTag, unless stated otherwise. We are not responsible of hideous loading orders, brutal mod mixes and other user-related issues that might arise from combining these mods between them.
