@@ -2,18 +2,18 @@ OptionMenu ptag_Options
 {
 	Title "SKULLTAG OPTIONS"
 
-	StaticText "Contains options that tweak the game to make it behave like the original Skulltag.","Blue"
+	StaticText "Contains options that tweak the game to make it behave like the original Skulltag.","LightBlue"
 	StaticText " "
-	StaticText "Monsters will get randomly replaced by their enhaced Skulltag counterparts.","Blue"
-	StaticText "Turn OFF if you are playing with NON-COMPATIBLE MODS","Blue"
+	StaticText "Monsters will get randomly replaced by their enhaced Skulltag counterparts.","LightBlue"
+	StaticText "Turn OFF if you are playing with NON-COMPATIBLE MODS","LightBlue"
 	Option "Replace monsters"	, ptag_replacemonsters	, OnOff
 	StaticText " "
-	StaticText "Spawners will generate resources constantly, even between waves.","Blue"
-	StaticText "Turn OFF if you are playing with NON-COMPATIBLE MODS","Blue"
+	StaticText "Spawners will generate resources constantly, even between waves.","LightBlue"
+	StaticText "Turn OFF if you are playing with NON-COMPATIBLE MODS","LightBlue"
 	Option "Constant spawners"	, ptag_constantspawn	, OnOff
 	StaticText " "
-	StaticText "Monsters will be hostile to the player as soon as he spawns in game.","Blue"
-	StaticText "Turn OFF if you are playing with NON-COMPATIBLE MODS","Blue"
+	StaticText "Monsters will be hostile to the player as soon as he spawns in game.","LightBlue"
+	StaticText "Turn OFF if you are playing with NON-COMPATIBLE MODS","LightBlue"
 	Option "Always hostile"	, ptag_alwaysaggro	, OnOff
 }	
 
