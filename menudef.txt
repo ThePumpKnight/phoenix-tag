@@ -2,10 +2,10 @@ OptionMenu ptag_Options
 {
 	Title "SKULLTAG OPTIONS"
 
-	StaticText "This menu contains options that tweak the game to make it behave like the original Skulltag.","Blue"
+	StaticText "Contains options that tweak the game to make it behave like the original Skulltag.","Blue"
 	StaticText " "
-	StaticText "With this option enabled, monsters will get randomly replaced by their enhaced Skulltag counterparts.","Blue"
-	StaticText "Turn this OFF if you are playing with NON-COMPATIBLE MODS","Blue"
+	StaticText "Monsters will get randomly replaced by their enhaced Skulltag counterparts.","Blue"
+	StaticText "Turn OFF if you are playing with NON-COMPATIBLE MODS","Blue"
 	Option "Replace monsters"	, ptag_replacemonsters	, OnOff
 }	
 
@@ -13,27 +13,27 @@ OptionMenu ptag_Options2
 {
 	Title "PHOENIXTAG OPTIONS"
 
-	StaticText "This menu contains options that allow the user to tweak the experience more precisely to their liking.","Blue"
+	StaticText "Contains options that allow the user to tweak the experience and customise it.","Gold"
 	StaticText " "
-	StaticText "With this option enabled, PhoenixTag will randomly replace pre-placed runes with a random, different one.","Gold"
-	StaticText "Turn this OFF if you are playing with NON-COMPATIBLE MODS","Gold"
-	Option "Replace runes"		, ptag_replacerunes		, OnOff
-	StaticText " "
-	StaticText "With this option enabled, PhoenixTag will attempt to replace pre-placed items with a Skulltag equivalent.","Gold"
-	StaticText "Turn this OFF if you are playing with NON-COMPATIBLE MODS","Gold"
-	Option "Replace items"		, ptag_replaceitems		, OnOff
-	StaticText " "
-	StaticText "With this option enabled, PhoenixTag will attempt to replace weapons randomly with their Skulltag variants.","Gold"
-	StaticText "Turn this OFF if you are playing with NON-COMPATIBLE MODS","Gold"
-	Option "Replace weapons"	, ptag_replaceweapons	, OnOff
-	StaticText " "
-	StaticText "With this option enabled, PhoenixTag will remove the Spread rune from the game and make it useless.","Gold"
-	StaticText "Turn this ON if you are playing with NON-COMPATIBLE MODS","Gold"
+	StaticText "PhoenixTag will remove the Spread rune from the game and make it useless.","Gold"
+	StaticText "Turn ON if you are playing with ANY MODS","Gold"
 	Option "Disable Spread"	, ptag_disablespread	, OnOff
 	StaticText " "
-	StaticText "If the difficulty tweaker is at 0, easier spawns will appear per each difficulty level.","Gold"
-	StaticText "If it is 2, harder horders will take place instead.","Gold"
-	StaticText "Use mainly to tweak the spawns with mods enabled to adjust difficulty spike.","Gold"
+	StaticText "PhoenixTag will randomly replace pre-placed runes with a random, different one.","Gold"
+	StaticText "Turn OFF if you are playing with NON-COMPATIBLE MODS","Gold"
+	Option "Replace runes"		, ptag_replacerunes		, OnOff
+	StaticText " "
+	StaticText "PhoenixTag will attempt to replace pre-placed items with a Skulltag equivalent.","Gold"
+	StaticText "Turn OFF if you are playing with NON-COMPATIBLE MODS","Gold"
+	Option "Replace items"		, ptag_replaceitems		, OnOff
+	StaticText " "
+	StaticText "PhoenixTag will attempt to replace weapons randomly with their Skulltag variants.","Gold"
+	StaticText "Turn OFF if you are playing with NON-COMPATIBLE MODS","Gold"
+	Option "Replace weapons"	, ptag_replaceweapons	, OnOff
+	StaticText " "
+	StaticText "If difficulty tweaker is at 0, easier spawns will appear per difficulty level.","Gold"
+	StaticText "If it is 2, harder hordes will take place instead.","Gold"
+	StaticText "Use to tweak the spawns with mods enabled to adjust difficulty spike.","Gold"
 	Slider "Difficulty Tweaker"	, ptag_difficultytweaker	, 0, 2, 1
 }	
 
