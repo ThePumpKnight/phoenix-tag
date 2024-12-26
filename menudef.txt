@@ -7,6 +7,14 @@ OptionMenu ptag_Options
 	StaticText "Monsters will get randomly replaced by their enhaced Skulltag counterparts.","Blue"
 	StaticText "Turn OFF if you are playing with NON-COMPATIBLE MODS","Blue"
 	Option "Replace monsters"	, ptag_replacemonsters	, OnOff
+	StaticText " "
+	StaticText "Spawners will generate resources constantly, even between waves.","Blue"
+	StaticText "Turn OFF if you are playing with NON-COMPATIBLE MODS","Blue"
+	Option "Constant spawners"	, ptag_constantspawn	, OnOff
+	StaticText " "
+	StaticText "Monsters will be hostile to the player as soon as he spawns in game.","Blue"
+	StaticText "Turn OFF if you are playing with NON-COMPATIBLE MODS","Blue"
+	Option "Always hostile"	, ptag_alwaysaggro	, OnOff
 }	
 
 OptionMenu ptag_Options2

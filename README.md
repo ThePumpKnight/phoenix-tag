@@ -28,6 +28,11 @@ There are several mods that don´t work with CP themselves, since compatibility 
 Skulltag options:
 `Replace Monsters`: with this option enabled, monsters will get randomly replaced by their enhaced Skulltag counterparts. For example, it´ll replace some Demons with Blood Demons, some Barons of Hell with Belphegors, and so on and so forth. Disable when playing with non-compatible mods.
 
+`Constant Spawners`: with this option enabled, the supplier spawners on the Invasion maps will spawn items even between waves, like the original Skulltag did. Disable when playing with non-compatible mods.
+
+`Always Hostile`: with this option enabled, monsters on Invasion maps will automatically target you when they spawn, instead of requiring a line of sight contact with the player. The original Skulltag behaved this way. Disable when playing with non-compatible mods.
+
+
 PhoenixTag options:
 `Replace Runes`: with this option enabled, runes will randomly replace pre-placed powerups. For example, a backpack may be replaced by a Rage rune. Disable when playing with non-compatible mods.
 
