@@ -18,11 +18,8 @@ map INV1 lookup LEVEL_INV_1
 
 map INV2 lookup LEVEL_INV_2
 {
-	next = "EndTitle"
-	secretnext = "EndTitle"
-// G: Uncomment when work on INV3 starts!
-/*	next = INV3
-	secretnext = INV3 */
+	next = INV3
+	secretnext = INV3
 	sky1 = STSKY14, 0.1
 	sky2 = STSKY14, 0.1
 	cluster = 11
