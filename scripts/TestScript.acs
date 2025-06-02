@@ -1,0 +1,13 @@
+#library "TestScript"
+#include "zcommon.acs"
+
+int k = 0;
+
+script "TestScript" OPEN
+{
+	while (k < 10){
+		Log(s:"It is working!");
+		k++;
+		Delay(1);
+	}
+}

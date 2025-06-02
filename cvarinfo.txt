@@ -1,9 +1,69 @@
+/////////////////////
+// TWEAKABLE CVARS //
+/////////////////////
+
+// ptag_replacemonsters => REPLACE MONSTERS
+// Allows the game to know if monsters should be replaced by Skulltag variants
+// · true => Pre-placed monsters get replaced, allows spawning of ST monsters
+// · false => Pre-placed monsters not altered, can´t spawn ST monsters at all
 server bool ptag_replacemonsters = true;
+
+// ptag_replacerunes => REPLACE RUNES
+// Allows the game to know if runes should get replaced by vanilla items
+// · true => The runes will attempt to get replaced by vanilla objects
+// · false => Already placed runes will stay as they were
 server bool ptag_replacerunes = true;
+
+// ptag_replaceitems => REPLACE ITEMS
+// Gives the possibility of randomly replacing some powerups with ST items
+// · true => Pre-placed items (armors, health bonus, etc) try to get replaced
+// · false => All pre-placed items stay the same
 server bool ptag_replaceitems = true;
+
+// ptag_replaceweapons => REPLACE WEAPONS
+// The game will try to replace pre-placed weapons with their ST equivalents
+// · true => Pre-placed weapons will get changed, can spawn ST weapons
+// · false => Pre-placed weapons remain the same, can´t spawn ST weapons
 server bool ptag_replaceweapons = true;
-server bool ptag_alwaysaggro = true;
+
+// ptag_disablespread => DISABLE CONFLICTIVE RUNES
+// This option allows the player to get rid of only the conflictive runes, that
+// is, the ones that ain´t mod-compatible (Spread and Prosperity, mostly)
+// · true => Will always replace said runes by vanilla objects
+// · false => The conflictive runes remain as they were
 server bool ptag_disablespread = false;
+
+
+////////////////
+// MAP CVARS //
+//////////////
+
+// ptag_alwaysaggro => ALWAYS HOSTILE
+// When this is enabled, monsters will be hostile to the player at spawn.
+// Aimed for fidelity to the original Skulltag invasion maps.
+// · true => Monsters will be hostile right as they spawn, no need of LoS
+// · false => Monsters will only become hostile if the player is visible
+server bool ptag_alwaysaggro = true;
+
+// ptag_constantspawn => CONSTANT SPAWNS
+// Resupply spawns at Invasion maps will never stop the ressuply count, not even
+// in the in-between waves timeout.
+// · true => Supplies will spawn constantly on the map when time is due
+// · false => Supplies countdown will halt when the timeout is on
 server bool ptag_constantspawn = false;
-server int ptag_setwave = 0;
+
+// ptag_difficultytweaker => DIFFICULTY TWEAKER
+// Allows fine-tuning of the enemy spawning, affecting the finishing spawning
+// to have more or less enemies that the corresponding on the corresponding 
+// difficulty level without changing it.
+// · 0 => Less enemies than default
+// · 1 => Default
+// · 2 => More enemies than default
 server int ptag_difficultytweaker = 1;
+
+// ptag_wave => WAVE CONTROLLER
+// An internal CVar that keeps check of the current wave in during an Invasion
+// game. Tweaking it allows to move into a specific wave.
+// · Input the desired number of the wave to go. +10 will give send to Eternal
+//   waves.
+server int ptag_wave = 0;
